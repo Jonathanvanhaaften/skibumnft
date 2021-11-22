@@ -79,7 +79,7 @@ class App extends Component{
                     <Route exact path="/links" component={Links}/>
                     </Routes>
                     <Dashboard/>
-                      <Footer/>   
+                      <Footer className="m-5"/>   
                      </div>
                       
                    </Fragment>
