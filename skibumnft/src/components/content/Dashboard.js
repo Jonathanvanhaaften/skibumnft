@@ -6,7 +6,7 @@ import Picture from './Picture'
 export default function Dashboard() {
     return (
         <div className="bg-black grid p-6 grid-cols-3 grid-rows-6 text-white">
-            <div className="row-start-2">
+            <div className="row-start-4">
                 <h1 className="text-7xl">The Misson</h1>
                 <p className="text-2xl p-4">We are forestering a community of Ski, Snowboard style 
                     enthusiasts and connecting it all into the world of NFTs and Metaverses</p>
@@ -17,7 +17,7 @@ export default function Dashboard() {
                 <div className="row-span-2 col-start-3">
                     <Mailchimp/>
                 </div>
-            <div className="row-start-4 col-start-2 flex justify-center">
+            <div className="row-start-6 col-start-2 flex justify-center">
                 <div>
                     <h2 className="text-7xl" >Road Map</h2>
                     <h3 className="text-5xl">Stage One</h3>
@@ -30,7 +30,7 @@ export default function Dashboard() {
             <div className="col-start-1 row-start-5 w-full h-full flex justify-center m-4 row-spam-2">
                 <Picture/>
             </div>
-            <div className="row-start-8 w-full h-full relative"></div>
+        
             
         </div>
     )
