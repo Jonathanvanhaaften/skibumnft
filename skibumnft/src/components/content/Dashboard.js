@@ -8,7 +8,7 @@ export default function Dashboard() {
         <div className="bg-black grid p-4 grid-cols-3 grid-rows-8 text-white">
             <div className="row-start-1">
                 <h1 className="text-7xl">The Misson</h1>
-                <p className="text-2xl p-4">We are forestering a community of Ski, Snowboard style 
+                <p className="text-2xl p-4">We are fostering a community of Ski, Snowboard style 
                     enthusiasts and connecting it all into the world of NFTs and Metaverses</p>
             </div>
                 <div>
@@ -37,7 +37,11 @@ export default function Dashboard() {
              w-full h-full flex justify-center m-4 row-spam-2">
                 <Picture/>
             </div>
-        
+            <div className="col-start-3 row-start-5
+             w-full h-full flex justify-center m-4 row-spam-2">
+                <Picture/>
+            </div>
+            
             
         </div>
     )
