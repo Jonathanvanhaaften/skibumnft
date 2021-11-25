@@ -5,7 +5,7 @@ import Picture from './Picture'
 
 export default function Dashboard() {
     return (
-        <div className="bg-black grid p-4 grid-cols-3 grid-rows-8 text-white">
+        <div className="bg-black grid p-4 grid-cols-3  grid-rows-8 text-white">
             <div className="row-start-1">
                 <h1 className="text-7xl">The Misson</h1>
                 <p className="text-2xl p-4">We are fostering a community of Ski, Snowboard style 
@@ -37,7 +37,7 @@ export default function Dashboard() {
              w-full h-full flex justify-center m-4 row-spam-2">
                 <Picture/>
             </div>
-            <div className="col-start-3 row-start-5
+            <div className="col-start-3 row-start-6
              w-full h-full flex justify-center m-4 row-spam-2">
                 <Picture/>
             </div>
