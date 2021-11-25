@@ -26,6 +26,9 @@ export const Navbar = ({toggle}) => {
                 <Link className="px-4" to='/links'>
                     Links
                 </Link>
+                <Link className="px-4" to='/gallery'>
+                    Gallery
+                </Link>
                 <div className="flex ">
                 <a className="px-2" href={REACT_APP_FACEBOOK_URL}>
                     <img className="w-5 h-5" src={f_logo} alt="Facebook" />
