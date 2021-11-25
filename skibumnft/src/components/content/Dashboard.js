@@ -34,7 +34,7 @@ export default function Dashboard() {
                     <p className=" text-2xl ">Checking in with Community about future drops</p>
                 </div>
             </div>
-            <div className="col-start-1 row-start-5
+            <div className="col-start-1 row-start-4
              w-full h-full flex justify-center m-4 row-spam-2">
                 <Picture/>
             </div>

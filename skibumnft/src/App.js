@@ -10,10 +10,6 @@ import { createBrowserHistory } from 'history';
 
 
 
-// error alert
-// import { withAlert } from "react-alert";
-// import { Provider as AlertProvider } from 'react-alert'
-// import AlertTemplate from 'react-alert-template-basic'
 
 //img & css 
 import title_png from '../src/images/hero4.png'
@@ -25,7 +21,7 @@ import title_png from '../src/images/hero4.png'
 //  Components
 import Navbar from './components/nav/Navbar';
 import Links from './components/content/Links';
-import About from './components/content/About';
+// import About from './components/content/About';
 import Footer from './components/content/Footer';
 import Dashboard from './components/content/Dashboard'
 
@@ -40,11 +36,6 @@ history.listen(location => {
   ReactGA.pageview(location.pathname); // Record a pageview for the given page
 });
 
-// const alertOptions = {
-//   timeout: 3000,
-//   position: "top center"
-// };
-
 
 class App extends Component{
   componentDidMount(){
@@ -56,7 +47,7 @@ class App extends Component{
   
   
          return <Fragment >
-               {/* <AlertProvider template={AlertTemplate}{...alertOptions}> */}
+             
                <Router history={history}>
                 <Fragment  > <div className="bg-black">
                   <Navbar />
@@ -75,7 +66,7 @@ class App extends Component{
                    
                     <Routes>
                     <Route exact path="/" component={Footer}/>
-                    <Route exact path="/about" component={About}/>
+                    {/* <Route exact path="/about" component={About}/> */}
                     <Route exact path="/links" component={Links}/>
                     </Routes>
                     <Dashboard/>
@@ -85,7 +76,7 @@ class App extends Component{
                    </Fragment>
                   </Router>              
                 
-                    {/* </AlertProvider> */} </Fragment>
+                  </Fragment>
                  
      }
  };
