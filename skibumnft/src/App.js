@@ -65,11 +65,11 @@ class App extends Component{
                     {/* Start of components */}
                    
                     <Routes>
-                    <Route exact path="/" component={Footer}/>
+                    <Route exact path="/" element={<Dashboard/>}/>
                     {/* <Route exact path="/about" component={About}/> */}
-                    <Route exact path="/links" component={Links}/>
+                    <Route exact path="/links" element={<Links/>}/>
                     </Routes>
-                    <Dashboard/>
+                    {/* <Dashboard/> */}
                       <Footer className="m-5"/>   
                      </div>
                       
