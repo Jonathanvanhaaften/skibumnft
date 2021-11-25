@@ -5,6 +5,7 @@ import Picture from './Picture'
 
 const Gallery = () => {
     return (
+        
        <Fragment><div>
            <div className="grid grid-col-6 grid-rows-3 mb-20 mr-8">
             <div className="col-start-1 
