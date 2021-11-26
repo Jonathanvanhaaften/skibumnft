@@ -21,7 +21,7 @@ export default function Footer() {
 
 <div  className="row-start-3 p-5 bg-fixed bg-black bg-cover h-20 relative">                   
       <div className="flex row-start-4 justify-center relative bg-black "> 
-      <a href="mailto:Patrol@skibumnft.com"  className="text-2xl">Patrol@skibumnft.com</a>
+      <a href="mailto:Patrol@skibumnft.com"  className="text-2xl">patrol@skibumnft.com</a>
                 <a className="px-2" href={REACT_APP_FACEBOOK_URL}>
                     <img className="w-10 h-10" src={f_logo} alt="Facebook" />
                 </a>
