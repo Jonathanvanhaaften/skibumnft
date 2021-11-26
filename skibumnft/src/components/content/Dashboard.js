@@ -11,6 +11,7 @@ export default function Dashboard() {
                 <p className="text-2xl p-4">We are fostering a community of ski, snowboard style 
                     enthusiasts and connecting it all into the world of NFTs and metaverses  </p>
                     
+                    
             </div>
 {/*  sm:grid-rows-1 */}
             {/* */}
