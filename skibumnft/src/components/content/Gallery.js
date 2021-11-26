@@ -7,7 +7,7 @@ const Gallery = () => {
     return (
         
        <Fragment><div>
-           <div className="grid grid-col-6 grid-rows-3 mb-20 mr-8">
+           <div className="md:grid md:grid-col-6 md:grid-rows-3 mb-20 mr-8">
             <div className="col-start-1 
              w-full h-full flex justify-center m-4 pb-20 row-spam-2">
                 <Picture/>

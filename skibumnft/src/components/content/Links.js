@@ -4,12 +4,13 @@ import React, {Fragment} from 'react'
 export default function Links() {
     return (
         <Fragment>
+            <div className="bg-black">
             <div className='text-white  p-20'>
-            <h1 className="text-5xl">Our Friends and sites of intrest</h1>
+            <h1 className="text-5xl">Our friends and sites of interest</h1>
             <p className="text-xl">Any NFTs promoted on our site are for aesthetics and for the community, not for 
-                financial gain. 
+                financial gain.  We would like to promote art and community.
             </p>
-            <p className="text-xl"> We would like to promote art and community.</p>
+           
             </div>
             <div className="text-right text-4xl m-8 text-gray-600">
                 <a className=" hover:text-white p-5" href="https://www.pixelbeachclub.com/">Pixel Beach club - Artist</a><br />
@@ -29,7 +30,7 @@ export default function Links() {
                 <a className=" hover:text-white p-5" href="https://www.sandkexpeditions.com">S and K Expeditions</a>
             </div>
             
-            
+            </div>
  
         </Fragment>
     )

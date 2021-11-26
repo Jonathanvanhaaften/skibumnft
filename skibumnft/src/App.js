@@ -12,7 +12,7 @@ import { createBrowserHistory } from 'history';
 
 
 //img & css 
-import title_png from '../src/images/hero4.png'
+import title_png from '../src/images/hero5.png'
 
 // Redux 
 // import { Provider } from 'react-redux';
@@ -50,10 +50,11 @@ class App extends Component{
          return <Fragment >
              
                <Router history={history}>
-                <Fragment  > <div className="bg-black">
+                <Fragment  > <div className="bg-black ">
                   <Navbar />
-                    <img className="" src={title_png} alt="" />
-                               
+                  <div className="flex justify-center">
+                    <img className="  lg:h-87 md:h-90" src={title_png} alt="" />
+                            </div>   
                       {/* helmet meta data for seo */}
                       <Helmet>
                         <html lang="en"/>
