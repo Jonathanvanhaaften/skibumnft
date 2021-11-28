@@ -35,8 +35,9 @@ export default function Footer() {
                     <img className="w-10 h-10" src={insta_logo} alt="Instagram" />
                 </a></div> 
      </div>
-     <a className="row-start-4 relative bg-black bg-cover " href="mailto:Patrol@skibumnft.com"  className="text-2xl">patrol@skibumnft.com</a>
-     
+     <div className=" row-start-2 relative bg-black bg-cover flex justify-center ">
+     <a  href="mailto:Patrol@skibumnft.com"  className="text-2xl">patrol@skibumnft.com</a>
+     </div>
       </div>
       
     )
