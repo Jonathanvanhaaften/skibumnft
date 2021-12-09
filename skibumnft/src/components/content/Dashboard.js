@@ -2,6 +2,8 @@
 import React from 'react'
 import Mailchimp from './Mailchimp'
 import Picture from './Picture'
+import roadmap from '../../images/roadmapmain.jpg'
+import van_img from '../../images/vanlife.png'
 
 export default function Dashboard() {
     return (
@@ -23,33 +25,23 @@ export default function Dashboard() {
                 </div>
 <div className="col-start-1 row-start-4
              w-full h-full flex justify-center sm:m-4 row-spam-2">
-                <Picture/>
+                <Picture picture={van_img} setPic={true}/>
             </div>
 
-            <div className="row-start-5 col-start-2 flex justify-center row-span-2">
+            <div className="row-start-5 col-start-2 flex justify-center mr-10 col-span-2 row-span-3">
                 <div className="">
                     <h2 className="text-7xl text-center p-10" >Road Map</h2>
                     <div className="m-10">
-                    <h3 className="text-4xl text-center p-5">Stage One</h3>
-                    <p className=" text-2xl ">deploy website</p>
-                    <p className=" text-2xl " >build community</p>
-                    <h3 className="text-4xl text-center p-5">Stage Two</h3>
-                    <p className=" text-2xl ">deploy first five NFTs</p>
-                    <p className="text-2xl ">upgrading the website</p>
-                    <p className=" text-2xl ">building links to other artist for our community</p>
-                    <p className=" text-2xl ">upgrading the road map</p>
-                    <h3 className="text-4xl text-center p-5">Stage Three</h3>
-                    <p className=" text-2xl ">looking foward to metaverses</p>
-                    <p className=" text-2xl ">checking in with community about future drops</p>
+                  {/* <img src={roadmap} alt="" /> */} <Picture className="" picture={roadmap} setPic={true}/>
                     </div>
                 </div>
             </div>
             
-            <div className="col-start-3 row-start-6
+            {/* <div className="col-start-3 row-start-6
              w-full h-full flex justify-center sm:m-4 sm:pb-40 row-spam-2">
                 <Picture/>
             </div>
-            
+             */}
             
         </div>
     )
