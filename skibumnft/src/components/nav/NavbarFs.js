@@ -4,6 +4,7 @@ import f_logo from '../../images/f_logo_RGB-White_58.png'
 import insta_logo from '../../images/Instagram_Glyph_Gradient_RGB.png'
 import tiktok_logo from '../../images/tiktok-logo.png'
 import twitter_logo from '../../images/twitter-logo.png'
+import opensea_logo from '../../images/opensea.png'
 
 
 export const Navbar = ({toggle}) => {
@@ -11,6 +12,7 @@ export const Navbar = ({toggle}) => {
     const {REACT_APP_INSTA_URL} = process.env
     const {REACT_APP_TWITTER_URL} = process.env
     const {REACT_APP_TIKTOK_URL} = process.env
+    const {REACT_APP_OPENSEA_URL} = process.env
     return (
         <nav className='flex justify-between item-cetner py-4 h-11 bg-black text-white relative shadow-sm font-mono' role='navigation'>
             <Link to='/'className='px-4'>Ski Bum NFT</Link>
@@ -30,6 +32,8 @@ export const Navbar = ({toggle}) => {
                     Gallery
                 </Link>
                 <div className="flex ">
+                <a className="px-2" href={REACT_APP_OPENSEA_URL}>
+                    <img className="w-5 h-5" src={opensea_logo} alt="Facebook" /></a>
                 <a className="px-2" href={REACT_APP_FACEBOOK_URL}>
                     <img className="w-5 h-5" src={f_logo} alt="Facebook" />
                 </a>

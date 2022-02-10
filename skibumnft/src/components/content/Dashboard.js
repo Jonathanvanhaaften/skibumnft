@@ -4,7 +4,7 @@ import Mailchimp from './Mailchimp'
 import Picture from './Picture'
 import roadmap from '../../images/roadmapmain.jpg'
 import van_img from '../../images/vanlife.png'
-
+import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
 export default function Dashboard() {
     return (
         <div className="bg-black md:grid md:p-4 md:grid-cols-3 sm:grid-cols-1 md:grid-rows-9 text-white">
@@ -20,15 +20,19 @@ export default function Dashboard() {
                 <div>
                
                 </div>
-                <div className="row-start-3 row-span-2 col-start-3">
-                    <Mailchimp/>
+                <div className="row-start-6 row-span-2 col-start-2">
+                <TwitterTimelineEmbed
+                     sourceType="profile"
+                    screenName="Skibumnft"
+                    options={{height: 900}}
+/>
                 </div>
 <div className="col-start-1 row-start-4
              w-full h-full flex justify-center sm:m-4 row-spam-2">
                 <Picture picture={van_img} setPic={true}/>
             </div>
 
-            <div className="row-start-5 col-start-2 flex justify-center mr-10 col-span-2 row-span-3">
+            <div className="row-start-3 col-start-2 flex justify-center mr-10 col-span-2 row-span-3">
                 <div className="">
                     <h2 className="text-7xl text-center p-10" >Road Map</h2>
                     <div className="m-10">
