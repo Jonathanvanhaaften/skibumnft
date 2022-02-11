@@ -50,7 +50,8 @@ class App extends Component{
          return <Fragment >
              
                <Router history={history}>
-                <Fragment  > <div className="bg-black ">
+                <Fragment  > 
+                  <div className="bg-black ">
                   <Navbar />
                   <div className="flex justify-center">
                     <img className="  lg:h-87 md:h-90" src={title_png} alt="" />
@@ -67,12 +68,12 @@ class App extends Component{
                     {/* Start of components */}
                    
                     <Routes>
-                    <Route exact path="/" element={<Dashboard/>}/>
+                    <Route exact path="/" element={<Dashboard className="mb-5 pb-10"/>}/>
                     <Route exact path="/gallery" element={<Gallery/>}/>
                     <Route exact path="/links" element={<Links/>}/>
                     </Routes>
-                    {/* <Dashboard/> */}
-                      <Footer className="m-5"/>   
+              <Footer className="m-15 pt-3"/>
+                        
                      </div>
                       
                    </Fragment>
