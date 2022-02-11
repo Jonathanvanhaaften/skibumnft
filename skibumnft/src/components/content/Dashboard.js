@@ -53,7 +53,7 @@ export default function Dashboard() {
  </div>
  <div className="bg-black md:grid md:p-4 md:grid-cols-3 sm:grid-cols-1 md:grid-rows-20 text-white">
 
- <div className="row-start-1  2xl:col-span-2 md:col-span-2 md:pl-40  pt-4">
+ <div className="row-start-1  2xl:col-span-2 md:col-span-2 md:pl-40  pt-4 ">
                 <h2 className="sm:text-7xl text-3xl pl-10">Foundation Collection:</h2>
                 <p className="sm:text-7xl text-3xl pl-10">Ski Bum Life</p>
                 
@@ -73,6 +73,25 @@ export default function Dashboard() {
                 <Picture/>
             </div>
              */}
+            </div>
+
+            <div className="bg-black md:grid md:p-4 md:grid-cols-3 sm:grid-cols-1 md:grid-rows-20 text-white">
+
+ <div className="row-start-1  2xl:col-span-2 md:col-span-2 md:pl-40  pt-4 ">
+                
+              
+                <br />
+                <br />
+                    </div>
+
+ <div className="row-start-4  2xl:col-span-2 md:col-span-2 md:pl-40  pt-4 ">
+                
+                <p className="sm:text-7xl text-3xl pl-10">Ski Bum Life</p>
+                <p className="text-2xl p-4">
+                     Living as a ski bum for over 20 years from whistler to BC's powder highway, a few enhanced photos 
+                     from the last few seasons while working at a ski lodge.</p>
+                    
+                    </div>
             </div>
        </div>
     )
