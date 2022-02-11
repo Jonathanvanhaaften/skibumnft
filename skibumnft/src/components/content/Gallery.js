@@ -23,63 +23,91 @@ import powderrknees from '../../images/nftart/powderrknees.png'
 
 
 const Gallery = () => {
+    const {REACT_APP_DEEPVAN_URL} = process.env
+    const {REACT_APP_DRIVE_URL} = process.env
+    const {REACT_APP_FIRST_URL} = process.env
+    const {REACT_APP_DEEP_URL} = process.env
+    const {REACT_APP_POWDERHUNTER_URL} = process.env
+    const {REACT_APP_BRIDGE_URL} = process.env
+    const {REACT_APP_NOTCH_URL} = process.env
+    const {REACT_APP_NEXT_URL} = process.env
+    const {REACT_APP_VIEW_URL} = process.env
+    const {REACT_APP_LOOKOUT_URL} = process.env
+    const {REACT_APP_EARN_URL} = process.env
+    const {REACT_APP_BACK_URL} = process.env
+
+
+
     return (
         
        <Fragment><div>
-           <div className="md:grid md:grid-col-6 md:grid-rows-3 sm:mb-20 mr-8">
+         <div className="md:grid md:grid-col-6 md:grid-rows-3 sm:mb-20 mr-8">
+         <a href={REACT_APP_NOTCH_URL}>
             <div className="col-start-1 
              w-full h-full flex justify-center m-4  sm:pb-20 row-spam-2">
                 <Picture picture={nikkysnotch} setPic={true}/>
-            </div>
+            </div></a> 
+            <a href={REACT_APP_DEEP_URL}>
             <div className="col-start-2 
              w-full h-full flex justify-center m-4 sm:pb-20 row-spam-2">
                 <Picture picture={deep} setPic={true}/>
-            </div>
-                    <div className="col-start-3 
+            </div></a>
+            <a href={REACT_APP_DEEPVAN_URL}>   <div className="col-start-3 
              w-full h-full flex justify-center m-4 sm:pb-20 row-spam-2">
                         <Picture picture={deepvan} setPic={true}/>
-                    </div>
+                    </div></a>
+
                     {/* Start of row 2 */}
+                    <a href={REACT_APP_VIEW_URL}>
                     <div className="col-start-1 row-start-2
              w-full h-full flex justify-center m-4 sm:pb-20 row-spam-2">
                  <Picture picture={kickingview} setPic={true}/>
-            </div>
+            </div></a>
+            <a href={REACT_APP_FIRST_URL}>
             <div className="col-start-2 row-start-2
              w-full h-full flex justify-center m-4 sm:pb-20 row-spam-2">
                  <Picture picture={firstsnow} setPic={true}/>
-            </div>
+            </div></a>
+            <a href={REACT_APP_BRIDGE_URL}>
                     <div className="col-start-3 row-start-2
              w-full h-full flex justify-center m-4 sm:pb-20 row-spam-2">
                       <Picture picture={overthebridgeoncemore} setPic={true}/>
-                    </div>
+                    </div></a>
                        {/* Start of row 3 */}
+                       <a href={REACT_APP_NEXT_URL}>
                        <div className="col-start-1 row-start-3
              w-full h-full flex justify-center m-4 sm:pb-20 row-spam-2">
                 <Picture picture={tothenextskitown} setPic={true}/>
-            </div>
+            </div></a>
+            <a href={REACT_APP_POWDERHUNTER_URL}>
             <div className="col-start-2 row-start-3
              w-full h-full flex justify-center m-4 sm:pb-20 row-spam-2">
                 <Picture picture={Imnotstuckyourstuck} setPic={true}/>
-            </div>
+            </div></a>
+            <a href={REACT_APP_LOOKOUT_URL}>
                     <div className="col-start-3 row-start-3
              w-full h-full flex justify-center m-4 sm:pb-20 row-spam-2">
                        <Picture picture={traverselookout} setPic={true}/>
-                    </div>
+                    </div></a>
                
             
                       {/* Start of row 4 */}
+                      <a href={REACT_APP_BACK_URL}>
                       <div className="col-start-1 row-start-4
              w-full h-full flex justify-center m-4 sm:pb-20 row-spam-2">
-                <Picture picture={turns} setPic={true}/>
-            </div>
+                <Picture picture={backseatdriver} setPic={true}/>
+            </div></a>
+            <a href={REACT_APP_DRIVE_URL}>
             <div className="col-start-2 row-start-4
              w-full h-full flex justify-center m-4 sm:pb-20 row-spam-2">
-                <Picture picture={powderrknees} setPic={true}/>
-            </div>
+                <Picture picture={drivesafe} setPic={true}/>
+            </div></a>
+            <a href={REACT_APP_EARN_URL}>
                     <div className="col-start-3 row-start-4
              w-full h-full flex justify-center m-4 sm:pb-20 row-spam-2">
                        <Picture picture={skibumgrind} setPic={true}/>
                     </div>
+                    </a>
                 </div>
             </div>
 

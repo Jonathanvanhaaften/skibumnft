@@ -3,11 +3,16 @@ import React from 'react'
 import Picture from './Picture'
 import roadmap from '../../images/roadmapmain.jpg'
 import van_img from '../../images/vanlife.png'
-import deep from '../../images/nftart/deep.png'
+import turns from '../../images/nftart/turns.png'
 import knees from '../../images/nftart/powderrknees.png'
 
 import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
 export default function Dashboard() {
+    const {REACT_APP_FOUNDATION_URL} = process.env
+    const {REACT_APP_FTURN_URL} = process.env
+    const {REACT_APP_FKNESS_URL} = process.env
+    
+    
     return (
         <div>
         <div className="bg-black md:grid md:p-4 md:grid-cols-3 sm:grid-cols-1 md:grid-rows-20 text-white">
@@ -54,7 +59,11 @@ export default function Dashboard() {
  <div className="bg-black md:grid md:p-4 md:grid-cols-3 sm:grid-cols-1 md:grid-rows-20 text-white">
 
  <div className="row-start-1  2xl:col-span-2 md:col-span-2 md:pl-40  pt-4 ">
-                <h2 className="sm:text-7xl text-3xl pl-10">Foundation Collection:</h2>
+
+                <a href={REACT_APP_FOUNDATION_URL} 
+                className="hover:text-gray-600
+                sm:text-7xl text-3xl pl-10">Foundation Collection:</a>
+               
                 <p className="sm:text-7xl text-3xl pl-10">Ski Bum Life</p>
                 
                     
@@ -62,11 +71,11 @@ export default function Dashboard() {
             </div>
             <div className=" col-start-2 row-start-7
              w-full h-full flex justify-center sm:m-4 row-spam-2">
-                <Picture picture={deep} setPic={true}/>
+              <a href={REACT_APP_FTURN_URL} >  <Picture picture={turns} setPic={true}/> </a>
             </div>
-            <div className=" col-start-3 row-start-7
+            <div className="  row-start-7
              w-full h-full flex justify-center sm:m-4 row-spam-2">
-                <Picture picture={knees} setPic={true}/>
+                <a href={REACT_APP_FKNESS_URL} >  <Picture picture={knees} setPic={true}/> </a>
             </div>
             {/* <div className="col-start-3 row-start-6
              w-full h-full flex justify-center sm:m-4 sm:pb-40 row-spam-2">
@@ -77,7 +86,7 @@ export default function Dashboard() {
 
             <div className="bg-black md:grid md:p-4 md:grid-cols-3 sm:grid-cols-1 md:grid-rows-20 text-white">
 
- <div className="row-start-1  2xl:col-span-2 md:col-span-2 md:pl-40  pt-4 ">
+ <div className="">
                 
               
                 <br />
@@ -86,7 +95,7 @@ export default function Dashboard() {
 
  <div className="row-start-4  2xl:col-span-2 md:col-span-2 md:pl-40  pt-4 ">
                 
-                <p className="sm:text-7xl text-3xl pl-10">Ski Bum Life</p>
+                <p className="sm:text-7xl text-3xl pl-10 ">Ski Bum Life</p>
                 <p className="text-2xl p-4">
                      Living as a ski bum for over 20 years from whistler to BC's powder highway, a few enhanced photos 
                      from the last few seasons while working at a ski lodge.</p>
