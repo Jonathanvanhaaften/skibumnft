@@ -25,6 +25,7 @@ import Links from './components/content/Links';
 import Footer from './components/content/Footer';
 import Dashboard from './components/content/Dashboard'
 import Gallery from './components/content/Gallery'
+import Stories from "./components/content/Stories";
 
 
 ReactGA.initialize(process.env.REACT_APP_GOOGLE_UA);
@@ -71,6 +72,7 @@ class App extends Component{
                     <Route exact path="/" element={<Dashboard className="mb-5 pb-10"/>}/>
                     <Route exact path="/gallery" element={<Gallery/>}/>
                     <Route exact path="/links" element={<Links/>}/>
+                    <Route exact path="/stories" element={<Stories/>}/>
                     </Routes>
               <Footer className="m-15 pt-3"/>
                         
