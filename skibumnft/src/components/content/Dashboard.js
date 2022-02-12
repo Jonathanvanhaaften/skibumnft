@@ -69,14 +69,15 @@ export default function Dashboard() {
                     
                     
             </div>
-            <div className=" col-start-2 row-start-7
+            < a href={REACT_APP_FTURN_URL}className=" col-start-2 row-start-7
              w-full h-full flex justify-center sm:m-4 row-spam-2">
-              <a href={REACT_APP_FTURN_URL} >  <Picture picture={turns} setPic={true}/> </a>
-            </div>
-            <div className="  row-start-7
+               <Picture picture={turns} setPic={true}/>
+           </a>
+            
+            < a href={REACT_APP_FKNESS_URL}className="  col-start-3 row-start-7
              w-full h-full flex justify-center sm:m-4 row-spam-2">
-                <a href={REACT_APP_FKNESS_URL} >  <Picture picture={knees} setPic={true}/> </a>
-            </div>
+                  <Picture picture={knees} setPic={true}/>
+             </a>
             {/* <div className="col-start-3 row-start-6
              w-full h-full flex justify-center sm:m-4 sm:pb-40 row-spam-2">
                 <Picture/>
