@@ -1,6 +1,7 @@
 import { Fragment } from "react"
 import React from 'react'
 import Picture from './Picture'
+import { Helmet } from "react-helmet";
 
 
 import nikkysnotch from '../../images/nftart/nikkysnotch.png'
@@ -40,7 +41,17 @@ const Gallery = () => {
 
     return (
         
-       <Fragment><div>
+       <Fragment>
+              {/* helmet meta data for seo */}
+              <Helmet>
+                        <html lang="en"/>
+                        <title>Ski Bum NFT Gallery</title>
+                        <meta name="description" content="Ski Bum NFTs Gallery of NFTs sold and for sale"/>
+                         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+                      </Helmet>
+                     
+                    {/* Start of components */}
+          <div>
          <div className="md:grid md:grid-col-6 md:grid-rows-3 sm:mb-20 mr-8">
          
             < a href={REACT_APP_NOTCH_URL} className="col-start-1 

@@ -1,9 +1,18 @@
 import React, {Fragment} from 'react'
-
+import { Helmet } from "react-helmet";
 
 export default function Links() {
     return (
         <Fragment>
+                   {/* helmet meta data for seo */}
+                   <Helmet>
+                        <html lang="en"/>
+                        <title>Ski Bum NFT Links</title>
+                        <meta name="description" content="Ski Bum NFTs Links to friends and artists"/>
+                         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+                      </Helmet>
+                     
+                    {/* Start of components */}
             <div className="bg-black">
             <div className='text-white  p-20'>
             <h1 className="sm:text-5xl text-xl">Our friends and sites of interest</h1>
