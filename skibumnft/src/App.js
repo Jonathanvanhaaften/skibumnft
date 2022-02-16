@@ -28,6 +28,7 @@ import Gallery from './components/content/Gallery'
 import Stories from "./components/content/Stories";
 
 
+
 ReactGA.initialize(process.env.REACT_APP_GOOGLE_UA);
 const history = createBrowserHistory();
 
@@ -54,6 +55,7 @@ class App extends Component{
                 <Fragment  > 
                   <div className="bg-black ">
                   <Navbar />
+       
                   <div className="flex justify-center">
                     <img className="  lg:h-87 md:h-90" src={title_png} alt="" />
                             </div>   

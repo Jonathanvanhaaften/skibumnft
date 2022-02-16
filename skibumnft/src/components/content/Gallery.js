@@ -2,6 +2,7 @@ import { Fragment } from "react"
 import React from 'react'
 import Picture from './Picture'
 import { Helmet } from "react-helmet";
+import { Link } from 'react-router-dom'
 
 
 import nikkysnotch from '../../images/nftart/nikkysnotch.png'
