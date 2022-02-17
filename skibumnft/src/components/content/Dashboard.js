@@ -108,7 +108,7 @@ export default function Dashboard() {
                     </div>
 
                 <div className="row-start-7  text-center sm:text-7xl text-3xl 2xl:col-span-3 md:col-span-3 pt-4 ">
-               <button className='bg-white hover:bg-black hover:text-white text-black font-bold py-2 px-4 rounded-2xl'>
+               <button className='transform transition-all  text-center py-3 row-start-4 text-6xl col-start-2   rounded-md hover:bg-indigo-500 duration-300'>
                 <Link className="text-center py-3" to='/gallery'>Gallery</Link></button>
                     </div>
             </div>
