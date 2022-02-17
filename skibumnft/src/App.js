@@ -26,6 +26,8 @@ import Footer from './components/content/Footer';
 import Dashboard from './components/content/Dashboard'
 import Gallery from './components/content/Gallery'
 import Stories from "./components/content/Stories";
+import ChrisBentart from './components/content/ChrisBentart'
+
 
 
 ReactGA.initialize(process.env.REACT_APP_GOOGLE_UA);
@@ -54,6 +56,7 @@ class App extends Component{
                 <Fragment  > 
                   <div className="bg-black ">
                   <Navbar />
+       
                   <div className="flex justify-center">
                     <img className="  lg:h-87 md:h-90" src={title_png} alt="" />
                             </div>   
@@ -73,6 +76,7 @@ class App extends Component{
                     <Route exact path="/gallery" element={<Gallery/>}/>
                     <Route exact path="/links" element={<Links/>}/>
                     <Route exact path="/stories" element={<Stories/>}/>
+                    <Route exact path="/ChrisBenart" element={<ChrisBentart/>}/>
                     </Routes>
               <Footer className="m-15 pt-3"/>
                         

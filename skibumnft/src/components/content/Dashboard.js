@@ -1,6 +1,9 @@
 
 import React from 'react'
 import Picture from './Picture'
+import { Link } from 'react-router-dom'
+import ScrollToTop from '../ScrollToTop'
+
 import roadmap from '../../images/roadmapmain.jpg'
 import van_img from '../../images/vanlife.png'
 import turns from '../../images/nftart/turns.png'
@@ -15,6 +18,7 @@ export default function Dashboard() {
     
     return (
         <div>
+             
         <div className="bg-black md:grid md:p-4 md:grid-cols-3 sm:grid-cols-1 md:grid-rows-20 text-white">
           
             <div className="row-start-1  2xl:col-span-2 md:col-span-2 md:pl-40  pt-4">
@@ -102,7 +106,13 @@ export default function Dashboard() {
                      from the last few seasons while working at a ski lodge.</p>
                     
                     </div>
+
+                <div className="row-start-7  text-center sm:text-7xl text-3xl 2xl:col-span-3 md:col-span-3 pt-4 ">
+               <button className='bg-white hover:bg-black hover:text-white text-black font-bold py-2 px-4 rounded-2xl'>
+                <Link className="text-center py-3" to='/gallery'>Gallery</Link></button>
+                    </div>
             </div>
+            <ScrollToTop/>
        </div>
     )
 }
