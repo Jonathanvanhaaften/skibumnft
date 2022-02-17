@@ -1,6 +1,9 @@
 import React from 'react'
 import { Fragment } from 'react'
 import { Helmet } from 'react-helmet'
+import { Link } from 'react-router-dom'
+
+import ChrisBentart from './ChrisBentart'
 
 export default function Stories() {
   return (
@@ -17,6 +20,11 @@ export default function Stories() {
         <div className="bg-black md:grid md:p-4 md:grid-cols-3 sm:grid-cols-1 md:grid-rows-20 text-white">
     <h1 className='col-start-2 sm:text-7xl text-6xl sm:m-10'>Stories</h1>
     <p className='row-start-2 col-start-2 text-4xl p-4 sm:m-10' >Coming Soon</p>
+    <button className='transform transition-all  text-center py-3 row-start-4 text-4xl col-start-2   rounded-md hover:bg-indigo-500 duration-300 '>
+    <Link className="
+      
+     " to='/ChrisBenart'>Pro Skier Chris Benchelter enters into the NFT world from sking to art NFTs </Link></button>
+
     </div>
     </Fragment>
   )

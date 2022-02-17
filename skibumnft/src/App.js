@@ -26,6 +26,7 @@ import Footer from './components/content/Footer';
 import Dashboard from './components/content/Dashboard'
 import Gallery from './components/content/Gallery'
 import Stories from "./components/content/Stories";
+import ChrisBentart from './components/content/ChrisBentart'
 
 
 
@@ -75,6 +76,7 @@ class App extends Component{
                     <Route exact path="/gallery" element={<Gallery/>}/>
                     <Route exact path="/links" element={<Links/>}/>
                     <Route exact path="/stories" element={<Stories/>}/>
+                    <Route exact path="/ChrisBenart" element={<ChrisBentart/>}/>
                     </Routes>
               <Footer className="m-15 pt-3"/>
                         
