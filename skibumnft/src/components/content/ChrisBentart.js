@@ -112,7 +112,7 @@ function ChrisBentart() {
                        <b> Paradisal Transcendence</b> </a> <br />
                     <div><br />
                       <embed type='video/mp4' className='pr-10'  src='https://ipfs.pixura.io/ipfs/QmWmHvyUAYZTPmVvNnfqsfGuGnx5Foa31LtffJH6tjG95q/MORF_BENCHETLER_NFT_SUPERRARE.MP4' 
-                      width='650' height='650' allowFullScreen ></embed>
+                      width='550' height='550' allowFullScreen ></embed>
                      </div> </div>
                       <div className="row-start-14 col-start-2 text-3xl"> 
                       <p><br /> <i> My genesis piece, Paradisal Transcendence—An animated acrylic painting depicting both the mountains, 
