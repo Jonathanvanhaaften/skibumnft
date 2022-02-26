@@ -60,7 +60,7 @@ export default function Dashboard() {
                    </div>
 
  </div>
- <div className="bg-black md:grid md:p-4 md:grid-cols-3 sm:grid-cols-1 md:grid-rows-20 text-white">
+ <div className="bg-black md:grid md:p-4 md:grid-cols-3 sm:grid-cols-1 md:grid-rows-10 text-white">
 
  <div className="row-start-1  2xl:col-span-2 md:col-span-2 md:pl-40  pt-4 ">
 
@@ -89,16 +89,16 @@ export default function Dashboard() {
              */}
             </div>
 
-            <div className="bg-black md:grid md:p-4 md:grid-cols-3 sm:grid-cols-1 md:grid-rows-20 text-white">
+            <div className="bg-black md:grid md:p-4  sm:grid-cols-1 md:grid-cols-3 md:grid-rows-20 text-white">
 
- <div className="">
+             <div className="row-start-1">
                 
               
                 <br />
                 <br />
                     </div>
 
- <div className="row-start-4  2xl:col-span-2 md:col-span-2 md:pl-40  pt-4 ">
+ <div className="row-start-2  2xl:col-span-2 md:col-span-2 md:pl-40  pt-4 ">
                 
                 <p className="sm:text-7xl text-3xl pl-10 ">Ski Bum Life</p>
                 <p className="text-2xl p-4">
@@ -107,10 +107,21 @@ export default function Dashboard() {
                     
                     </div>
 
-                <div className="row-start-7  text-center sm:text-7xl text-3xl 2xl:col-span-3 md:col-span-3 pt-4 ">
-               <button className='transform transition-all  text-center py-3 row-start-4 text-6xl col-start-2   rounded-md hover:bg-indigo-500 duration-300'>
-                <Link className="text-center py-3" to='/gallery'>Gallery</Link></button>
-                    </div>
+                <div className="row-start-3  text-center sm:text-7xl text-3xl 2xl:col-span-3 md:col-span-3 pt-4 ">
+               <button className='transform transition-all  text-center py-3  text-6xl  rounded-md hover:bg-indigo-500 duration-300'>
+                <Link className="text-center p-3" to='/gallery'>Gallery</Link></button>
+                </div>
+                   
+                <div className="row-start-4  sm:text-7xl text-3xl  col-start-3  pt-4 ">
+                   <p className='text-center pr-10'> Intoducing</p>
+                   
+                    <p className="text-2xl p-4 pr-10 ">Ski Bum NFT Stories. News, and happening from around the ski and NFT communitys.</p>   
+                </div>
+
+                <div className="row-start-5  text-center sm:text-7xl text-3xl  sm:col-span-3 pt-4 ">
+                    <button className='transform transition-all  text-center py-3 row-start-4 text-6xl col-start-2   rounded-md hover:bg-indigo-500 duration-300'>
+                    <Link className="text-center p-3" to='/Stories'>Stories</Link></button>
+                </div>
             </div>
             <ScrollToTop/>
        </div>
