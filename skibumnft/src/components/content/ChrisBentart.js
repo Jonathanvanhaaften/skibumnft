@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet";
 import InstagramEmbed from 'react-instagram-embed';
 import Youtube from "./Youtube";
 import ScrollToTop from '../ScrollToTop'
+import { Link } from 'react-router-dom'
 
 function ChrisBentart() {
   return (
@@ -17,7 +18,19 @@ function ChrisBentart() {
                          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
                       </Helmet>
                       <div className="bg-black md:grid md:p-4 md:grid-cols-3 sm:grid-cols-1 md:grid-rows-26 text-white">
-                      <div className=' sm:text-7xl col-start-1 col-span-2 text-6xl sm:m-10'>Pro Skier Chris Benchelter enters the NFT world -- from skiing to art NFTs</div>
+                      <div className=' sm:text-7xl col-start-1 col-span-2 text-6xl sm:m-10 md:grid md:grid-rows-2 md:grid-cols-2 '>
+                       <p className='col-span-2'> Pro Skier Chris Benchelter enters the NFT world -- from skiing to art NFTs</p>
+                       
+                       <div className='row-start-2 col-start-2  col-span-1 text-xl'> 
+                       <div className="border-2">
+                       <p className='p-2'> <i> “I would say that backcountry skiing is very artistic and always has been for me. That’s what draws me to it so much.
+                        With skiing, you get to draw a line down the mountain however you see it,
+                         so I’ve always related the two in terms of creativity. I can’t really pinpoint
+                        a way to describe how I see the mountains, but one—being in the mountains—definitely influences the other—art.”</i>
+                        <br/>
+                        Chris Benchelter Backcountry Magazine
+                            </p> </div></div>
+                      </div>
                       
                         <InstagramEmbed url='https://www.instagram.com/p/B9AHuMqnvnp/'
   clientAccessToken='496284042016370|65abf0cb7787fa467f3266c9439db24e'
@@ -33,22 +46,16 @@ function ChrisBentart() {
 />
                      
                      <br/>
-                     <div className='row-start-2 col-start-2 text-xl border-2'> <p className='p-2'> <i> “I would say that backcountry skiing is very artistic and always has been for me. That’s what draws me to it so much.
-                        With skiing, you get to draw a line down the mountain however you see it,
-                         so I’ve always related the two in terms of creativity. I can’t really pinpoint
-                        a way to describe how I see the mountains, but one—being in the mountains—definitely influences the other—art.”</i>
-                        <br/>
-                        Chris Benchelter Backcountry Magazine
-                            </p> </div>
+                     
                            
                             <div className='row-start-3 col-start-1 col-span-2 text-3xl'><br />
                               <p>We welcome Chris Benchelter to the ski and NFT community. Chis is both a prolific ski pro and an artist.
                                   He has created top-rated skis for Atomic and also art for Smartwool and  Evo, amongst others.
-                                 He is one of the first ski pros to enter the NFT community with his new piece </p><br />
+                                 He is one of the first ski pros to enter the NFT community with his new piece. </p><br />
                             </div>
                             <div className='row-start-4 col-start-1 col-span-2 text-3xl'>
-                              <p>In 2018 Benchelter  made the jump from K2 to Atomic, able to have more control over his pro models
-                                  he created one of the top rated skis with the eye-catching top sheet. Bringing Atomic onto the scene of Freestyle skiing. 
+                              <p>In 2018 Benchelter  made the jump from K2 to Atomic, as he wanted to have more control over his pro models.
+                                  He created one of the top-rated big mountain skis with the eye-catching top sheet that makes Benchetlers so iconic. Bringing Atomic onto the scene of Freestyle skiing. 
                                   "You can feel the influence of Mammoth Mountain, the mountain he grew up on, within his art and his love for the mountains." </p>
                            <br />
                             </div> <div className='row-start-5 col-start-2 col-span-2 text-3xl' > <br /> <p>His short film Chasing AdVANture follows his inspiration from surfing into creating the shape of his famous skis and art. 
@@ -95,11 +102,11 @@ function ChrisBentart() {
                       Chris’s style resembles his background in the sports of skiing, surfing and climbing. It marries the ocean's
                        flow, creating long deep strokes filled with earthy tones of the mountains, bringing in a brightness of 
                        the reddish hues from the sun that allows his work to pop. His distinct style has evolved over the years
-                        from characters of old man winter into landscapes,but his signature style is still present in every work
-                        .  Benchetler’s NFT drop is an animated acrylic painting on the very exclusive marketplace .
+                        from characters of old man winter into landscapes, but his signature style is still present in every work
+                        .  Benchetler’s NFT drop is an animated acrylic painting on the very exclusive marketplace.
                           It embodies his classic style and tones, in a deep and inspiring genesis piece. 
               On his Instagram, he writes: <i> “Supporting community loss is a collective effort. We grieve the losses, present and past.
- This artwork honors our friends and heroes, and hopes to transcend grief by communing with spirit. “</i><br />
+ This artwork honors our friends and heroes, and hopes to transcend grief by communing with spirit.“</i><br />
                     </div>
                     <div className="row-start-12 col-start-2 pl-9 text-3xl"><br /><br />
                       <b>
@@ -136,9 +143,34 @@ This piece is a tribute to my mentors. Old Man Winter is the animating force beh
                     </div>
                     <div className="row-start-16 col-start-1 p-20 col-span-3 text-3xl">
                       <p>I’m very excited to see what else Chris brings to this space with all his ventures.
-                         He brings a certain innovation, and has definitely influenced my work. With Chris entering the NFT space
+                         He brings a certain innovation, and has definitely influenced
+                         <button className='transform transition-all    rounded-md hover:bg-indigo-500 duration-300'>
+                <Link className="text-center p-3" to='/gallery'> my work.</Link></button>
+                           With Chris entering the NFT space
                           it lends credibility to the future of ski NFT culture and Chris will hopefully bring with him a variety
                            of ski-style artists into the NFT community.</p>
+                    </div>
+                    <div className="row-start-16 col-start-1 p-20 col-span-3 text-3xl">
+                      <p>Related links:</p>
+                      <br />
+                      <button className='transform transition-all    rounded-md hover:bg-indigo-500 duration-300'>                
+                <a href='https://superrare.com/artwork-v2/paradisal-transcendence-32286' className='text-4xl p-3  transform transition-all   rounded-md hover:bg-indigo-500 duration-300'>
+                       <b> Paradisal Transcendence</b> </a></button>
+                       <br />
+                       <br />
+                       <button className='transform transition-all rounded-md hover:bg-indigo-500 duration-300'>                
+                <a href='https://chrisbenchetler.com/' className='text-4xl p-3  transform transition-all   rounded-md hover:bg-indigo-500 duration-300'>
+                       <b>Chris Benchetlers Home Page</b> </a></button>
+                       <br />
+                       <br />
+                       <button className='transform transition-all rounded-md hover:bg-indigo-500 duration-300'>                
+                <a href='https://superrare.com/' className='text-4xl p-3  transform transition-all   rounded-md hover:bg-indigo-500 duration-300'>
+                       <b>SuperRare NFT Marketplace</b> </a></button>
+                       <br />
+                       <br />
+                       <button className='transform transition-all rounded-md hover:bg-indigo-500 duration-300'>                
+                <a href='https://backcountrymagazine.com/stories/skintrack-sketches-freeskier-chris-benchetler-tops-things-off-graphic-design/' className='text-4xl p-3  transform transition-all   rounded-md hover:bg-indigo-500 duration-300'>
+                       <b>Backcountry Magazine Interview</b> </a></button>
                     </div>
                     </div>
                      <br/>
