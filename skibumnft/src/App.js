@@ -58,7 +58,7 @@ class App extends Component{
                   <Navbar />
        
                   <div className="flex justify-center">
-                    <img className="  lg:h-87 md:h-90" src={title_png} alt="" />
+                    <img className="  lg:h-87 md:h-90" src={title_png} alt="Hero Title Image Ski Bum NFT" />
                             </div>   
                       {/* helmet meta data for seo */}
                       <Helmet>
@@ -72,11 +72,11 @@ class App extends Component{
                     {/* Start of components */}
                    
                     <Routes>
-                    <Route exact path="/" element={<Dashboard className="mb-5 pb-10"/>}/>
-                    <Route exact path="/gallery" element={<Gallery/>}/>
-                    <Route exact path="/links" element={<Links/>}/>
-                    <Route exact path="/stories" element={<Stories/>}/>
-                    <Route exact path="/ChrisBenart" element={<ChrisBentart/>}/>
+                    <Route exact name="Dashboard" path="/" element={<Dashboard className="mb-5 pb-10"/>}/>
+                    <Route exact name="gallery" path="/gallery" element={<Gallery/>}/>
+                    <Route exact name="links" path="/links" element={<Links/>}/>
+                    <Route exact name="stories" path="/stories" element={<Stories/>}/>
+                    <Route exact name="Chirs Benchelter" path="/ChrisBenart" element={<ChrisBentart/>}/>
                     </Routes>
               <Footer className="m-15 pt-3"/>
                         
