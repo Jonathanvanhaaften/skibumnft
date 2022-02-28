@@ -57,49 +57,49 @@ const Gallery = () => {
          
             < a href={REACT_APP_NOTCH_URL} className="col-start-1 
              w-full h-full flex justify-center m-4  sm:pb-20 ">
-                <Picture picture={nikkysnotch} setPic={true}/>
+                <Picture picture={nikkysnotch} setPic={true} alt={"Nikkys Notch NFT on OpenSea"}/>
            </a> 
             
             <a href={REACT_APP_DEEP_URL} className="col-start-2 
              w-full h-full flex justify-center m-4 sm:pb-20 ">
-                <Picture picture={deep} setPic={true}/>
+                <Picture picture={deep} setPic={true} alt={"Deep NFT on OpenSea"} />
             </a>
              <a href={REACT_APP_DEEPVAN_URL} className="col-start-3 
              w-full h-full flex justify-center m-4 sm:pb-20 ">
-                        <Picture picture={deepvan} setPic={true}/>
+                        <Picture picture={deepvan} setPic={true} alt={"Deep Van NFT on OpenSea"} />
                    </a>
 
                     {/* Start of row 2 */}
                     
                     <a href={REACT_APP_VIEW_URL} className="col-start-1 row-start-2
              w-full h-full flex justify-center m-4 sm:pb-20 ">
-                 <Picture picture={kickingview} setPic={true}/>
+                 <Picture picture={kickingview} setPic={true} alt={"Kicking Horse View NFT on OpenSea"} />
             </a>
             
             <a href={REACT_APP_FIRST_URL} className="col-start-2 row-start-2
              w-full h-full flex justify-center m-4 sm:pb-20 ">
-                 <Picture picture={firstsnow} setPic={true}/>
+                 <Picture picture={firstsnow} setPic={true} alt={"First Snow NFT on OpenSea"} />
             </a>
             
                     <a href={REACT_APP_BRIDGE_URL} className="col-start-3 row-start-2
              w-full h-full flex justify-center m-4 sm:pb-20 ">
-                      <Picture picture={overthebridgeoncemore} setPic={true}/>
+                      <Picture picture={overthebridgeoncemore} setPic={true} alt={"Bridge in Rogers Pass NFT on OpenSea"} />
                     </a>
                        {/* Start of row 3 */}
                       
                        <a href={REACT_APP_NEXT_URL} className="col-start-1 row-start-3
              w-full h-full flex justify-center m-4 sm:pb-20 ">
-                <Picture picture={tothenextskitown} setPic={true}/>
+                <Picture picture={tothenextskitown} setPic={true} alt={"To the Next NFT on OpenSea"} />
             </a>
             
             < a href={REACT_APP_POWDERHUNTER_URL} className="col-start-2 row-start-3
              w-full h-full flex justify-center m-4 sm:pb-20 ">
-                <Picture picture={Imnotstuckyourstuck} setPic={true}/>
+                <Picture picture={Imnotstuckyourstuck} setPic={true} alt={"Stuck NFT on OpenSea"} />
             </a>
             
                     < a href={REACT_APP_LOOKOUT_URL}className="col-start-3 row-start-3
              w-full h-full flex justify-center m-4 sm:pb-20 ">
-                       <Picture picture={traverselookout} setPic={true}/>
+                       <Picture picture={traverselookout} setPic={true} alt={"Lookout NFT on OpenSea"} />
                     </a>
                
             
@@ -107,17 +107,17 @@ const Gallery = () => {
                       
                       <a href={REACT_APP_BACK_URL}className="col-start-1 row-start-4
              w-full h-full flex justify-center m-4 sm:pb-20 ">
-                <Picture picture={backseatdriver} setPic={true}/>
+                <Picture picture={backseatdriver} setPic={true} alt={"Backseat NFT on OpenSea"} />
             </a>
             
             < a href={REACT_APP_DRIVE_URL}className="col-start-2 row-start-4
              w-full h-full flex justify-center m-4 sm:pb-20 ">
-                <Picture picture={drivesafe} setPic={true}/>
+                <Picture picture={drivesafe} setPic={true} alt={"Drive Safe on NFT OpenSea"} />
             </a>
             
                     < a href={REACT_APP_EARN_URL}className="col-start-3 row-start-4
              w-full h-full flex justify-center m-4 sm:pb-20 ">
-                       <Picture picture={skibumgrind} setPic={true}/>
+                       <Picture picture={skibumgrind} setPic={true} alt={"Ski Bum Grind NFT on OpenSea"} />
                     
                     </a>
                 </div>

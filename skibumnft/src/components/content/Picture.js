@@ -1,11 +1,11 @@
 import React from 'react';
 import  bgimg from '../../images/bgimg.jpg'
 
-const Picture = ({picture,setPic}) => {
+const Picture = ({picture,setPic,alt}) => {
   if (setPic  ){
     return(
     <div className=" w-full h-full p-4 m-14 bg-fixed bg-cover rounded relative flex justify-center " style={{ backgroundImage: `url('${bgimg}` }}>
-    <img className='inline-block' src={picture} alt="" /> </div>
+    <img className='inline-block' src={picture} alt={alt} /> </div>
          )
   }else{
     return (
