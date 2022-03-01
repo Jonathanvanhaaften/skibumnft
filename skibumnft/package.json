@@ -24,6 +24,7 @@
     "react-router": "^6.0.2",
     "react-router-dom": "^6.0.2",
     "react-scripts": "^3.4.4",
+    "react-snap": "^1.23.0",
     "react-transition-group": "^4.4.2",
     "react-twitter-embed": "^4.0.4",
     "redux": "^4.1.2",
@@ -37,7 +38,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "build:css": "postcss src/assets/tailwind.css -o src/assets/main.css",
-    "watch:css": "postcss src/assets/tailwind.css -o src/assets/main.css"
+    "watch:css": "postcss src/assets/tailwind.css -o src/assets/main.css",
+    "postbuild": "react-snap"
   },
   "eslintConfig": {
     "extends": [
