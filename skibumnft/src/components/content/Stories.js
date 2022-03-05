@@ -25,6 +25,11 @@ export default function Stories() {
       
      " to='/ChrisBenart'>Pro Skier Chris Benchelter enters into the NFT world from sking to art NFTs </Link></button>
 
+<button className='transform transition-all  text-center py-3 row-start-5 text-4xl col-start-2  mt-10 rounded-md hover:bg-indigo-500 duration-300 '>
+    <Link className="
+      
+     " to='/ChrisSold'>Pro Skier Chris Benchelter NFT gose to Auction </Link></button>
+
     </div>
     </Fragment>
   )
