@@ -27,6 +27,7 @@ import Dashboard from './components/content/Dashboard'
 import Gallery from './components/content/Gallery'
 import Stories from "./components/content/Stories";
 import ChrisBentart from './components/content/ChrisBentart'
+import ChrisSold from './components/content/ChrisSold'
 
 
 
@@ -77,6 +78,7 @@ class App extends Component{
                     <Route exact name="links" path="/links" element={<Links/>}/>
                     <Route exact name="stories" path="/stories" element={<Stories/>}/>
                     <Route exact name="Chirs Benchelter" path="/ChrisBenart" element={<ChrisBentart/>}/>
+                    <Route exact name="Chirs Benchelter Sold" path="/ChrisSold" element={<ChrisSold/>}/>
                     </Routes>
               <Footer className="m-15 pt-3"/>
                         
