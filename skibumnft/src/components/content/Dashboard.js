@@ -12,6 +12,7 @@ import turns from '../../images/nftart/turns.png'
 import knees from '../../images/nftart/powderrknees.png'
 import zima from '../../images/nftart/zimaafterthestorm.png'
 import tour from '../../images/nftart/tourpause.png'
+import sunny from '../../images/sunny.png'
 
 import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
 export default function Dashboard() {
@@ -160,12 +161,12 @@ export default function Dashboard() {
                 <Link className="text-center p-3" to='/gallery'>Gallery</Link></button>
                 </div>
                 <div className="row-start-6 col-span-2  sm:text-7xl text-3xl  col-start-2  py-3  m-5  border-indigo-500 border-8">
-                   <p className='text-center pr-10'>Come buy and check out Ski NFT Instagram</p>
+                   <p className='text-center pr-10'>Come by & check out Ski NFT Instagram</p>
                    
                      
                 </div>
 
-             <div className="row-start-7 col-start-3 pr-20">
+             <div className="row-start-7 col-start-3  md:pr-20">
                  <br />
              <InstagramEmbed url='https://www.instagram.com/p/CYKBR_SJvUV/'
   clientAccessToken='496284042016370|65abf0cb7787fa467f3266c9439db24e'
@@ -179,9 +180,43 @@ export default function Dashboard() {
   onAfterRender={() => {}}
   onFailure={() => {}}
 />
+             </div>  
              </div>
-       
+             <div className="bg-black md:grid md:p-4  sm:grid-cols-1 md:grid-cols-3 md:grid-rows-20 text-white">
+      <div className="row-start-1  sm:text-7xl text-3xl  col-start-2  pt-4  py-3  m-5  border-indigo-500 border-8 ">
+                   <p className='text-center pr-10 md:pr-0'>Excited to Join the Sunnies Commuity</p>
+                   
+                       
+                   
+                </div> 
+                < div className="pr-20 md:pr-0 row-start-3 col-start-1 row-span-3">
+   
+
+       <Picture className="" picture={sunny} setPic={true} alt={"The Sunnies NFT"} />
+     
+       </div>  
+     <div className="row-start-6 col-start-2">   <p className="text-3xl p-4 mt-5 text-center ">
+         <br />
+         Check out their twiter, its a 
+     community filled with NFT artists & welcoming people</p>
+        </div>
+       <div className="row-start-7 row-span-2 col-start-3 md:pr-20 ">
+             
+             <TwitterFollowButton
+               screenName={'thesunniesnft'}
+                   />
+       <TwitterTimelineEmbed
+            sourceType="profile"
+           screenName="thesunniesnft"
+           options={{height: 900}}
+           />
+          </div> 
+          </div> <div className="bg-black md:grid md:p-4  sm:grid-cols-1 md:grid-cols-3 md:grid-rows-20 text-white">
+          <div className="row-start-9 col-start-2">
+          <button className='transform transition-all  text-center py-3  text-6xl  rounded-md hover:bg-indigo-500 duration-300'>
+                <a href="https://www.sunniesnft.com/">The Sunnies Website</a></button></div>
             </div>
+        
             <ScrollToTop/>
        </div>
     )
