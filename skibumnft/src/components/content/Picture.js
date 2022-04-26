@@ -13,7 +13,7 @@ const Picture = ({picture,setPic,alt,link,title,eth}) => {
     <div className='text-white text-4xl'>
       <strong>
       {title}</strong></div>
-    <ul className='flex justify-between'>
+    <ul className='flex justify-between text-white'>
       <li><strong>
     <a href={link} className='text-white text-2xl'>{setPic}</a></strong>
       </li>
