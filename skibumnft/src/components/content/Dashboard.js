@@ -45,7 +45,8 @@ export default function Dashboard() {
 
             <div className="col-start-1 row-start-4
              w-full h-full flex justify-center sm:m-4 row-spam-2">
-                <Picture picture={van_img} link={REACT_APP_FOUNDATION_URL} setPic={"OpenSea"} alt={"Ski Bum Van Image"}/>
+                <Picture picture={van_img} link={REACT_APP_FOUNDATION_URL} 
+                title={'Ski Tour Van'} setPic={"OpenSea"} alt={"Ski Bum Van Image"}/>
             </div>
 
             <div className="row-start-3 col-start-2 flex justify-center mr-10 col-span-2 row-span-3">
@@ -85,23 +86,23 @@ export default function Dashboard() {
             <div className="col-start-2 col-span-2 row-start-11 row-spam-2 md:grid mb-20">
             <div className=" col-start-1 row-start-7
              w-full h-full flex justify-center sm:m-4 row-spam-2">
-               <Picture  picture={turns} setPic={"Foundation"} link={REACT_APP_FTURN_URL} alt={"Turns NFT on Foundation"}/>
+               <Picture  picture={turns} setPic={"Foundation"} title={'Turns'} eth={'0.40 ETH'} link={REACT_APP_FTURN_URL} alt={"Turns NFT on Foundation"}/>
            </div>
             
             < div className="  col-start-2 row-start-7
              w-full h-full flex justify-center sm:m-4 row-spam-2">
-                  <Picture picture={knees} setPic={"Foundation"}  link={REACT_APP_FKNESS_URL}alt={"Powder Kness on NFT Foundation"} />
+                  <Picture picture={knees} setPic={"Foundation"}  title={'Powder Knees'} eth={'0.30 ETH'} link={REACT_APP_FKNESS_URL}alt={"Powder Kness on NFT Foundation"} />
              </div></div>
              
              <div className="col-start-1 col-span-2 row-start-11 row-spam-2 md:grid mb-20">
              <div className=" col-start-2 row-start-11
              w-full h-full flex justify-center sm:m-4 row-spam-2">
-               <Picture  picture={tour} setPic={"Foundation"}  link={REACT_APP_FPAUSE_URL} alt={"After Powder Pause NFT on Foundation"}/>
+               <Picture  picture={tour} setPic={"Foundation"}  title={'After Powder Pause'} eth={'0.40 ETH'}  link={REACT_APP_FPAUSE_URL} alt={"After Powder Pause NFT on Foundation"}/>
            </div>
             
             < div className="  col-start-3 row-start-11
              w-full h-full flex justify-center sm:m-4 row-spam-2">
-                  <Picture picture={zima} setPic={"Foundation"} link={REACT_APP_FZIMA_URL} alt={"Zima After the storm NFT on Foundation"} />
+                  <Picture picture={zima} setPic={"Foundation"}  title={'Zima After the Storm'} eth={'0.10 ETH'} link={REACT_APP_FZIMA_URL} alt={"Zima After the storm NFT on Foundation"} />
              </div></div>
             {/* <div className="col-start-3 row-start-6
              w-full h-full flex justify-center sm:m-4 sm:pb-40 row-spam-2">

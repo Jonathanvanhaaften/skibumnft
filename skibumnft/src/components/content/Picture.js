@@ -1,7 +1,7 @@
 import React from 'react';
 import  bgimg from '../../images/bgimg.jpg'
 
-const Picture = ({picture,setPic,alt,link}) => {
+const Picture = ({picture,setPic,alt,link,title,eth}) => {
   const {REACT_APP_FOUNDATION_URL} = process.env
   // if (setPic  ){
     return(
@@ -10,8 +10,18 @@ const Picture = ({picture,setPic,alt,link}) => {
            style={{ backgroundImage: `url('${bgimg}` }}>  <div>
     <img className='w-full' src={picture} alt={alt} /> 
     </div>
-    <strong>
+    <div className='text-white text-4xl'>
+      <strong>
+      {title}</strong></div>
+    <ul className='flex justify-between'>
+      <li><strong>
     <a href={link} className='text-white text-2xl'>{setPic}</a></strong>
+      </li>
+      <li>
+        <strong><p>{eth}</p></strong>
+      </li>
+    </ul>
+    
     </div>
          )
 //   }else{
