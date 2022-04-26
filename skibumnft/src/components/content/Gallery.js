@@ -55,71 +55,71 @@ const Gallery = () => {
           <div>
          <div className="md:grid md:grid-col-6 md:grid-rows-3 sm:mb-20 mr-8">
          
-            < a href={REACT_APP_NOTCH_URL} className="col-start-1 
+            < div  className="col-start-1 
              w-full h-full flex justify-center m-4  sm:pb-20 ">
-                <Picture picture={nikkysnotch} setPic={true} alt={"Nikkys Notch NFT on OpenSea"}/>
-           </a> 
+                <Picture picture={nikkysnotch} link={REACT_APP_NOTCH_URL} setPic={'OpenSea'} alt={"Nikkys Notch NFT on OpenSea"}/>
+           </div> 
             
-            <a href={REACT_APP_DEEP_URL} className="col-start-2 
+            <div  className="col-start-2 
              w-full h-full flex justify-center m-4 sm:pb-20 ">
-                <Picture picture={deep} setPic={true} alt={"Deep NFT on OpenSea"} />
-            </a>
-             <a href={REACT_APP_DEEPVAN_URL} className="col-start-3 
+                <Picture picture={deep} setPic={'OpenSea'}link={REACT_APP_DEEP_URL} alt={"Deep NFT on OpenSea"} />
+            </div>
+             <div  className="col-start-3 
              w-full h-full flex justify-center m-4 sm:pb-20 ">
-                        <Picture picture={deepvan} setPic={true} alt={"Deep Van NFT on OpenSea"} />
-                   </a>
+                        <Picture picture={deepvan} setPic={'OpenSea'} link={REACT_APP_DEEPVAN_URL} alt={"Deep Van NFT on OpenSea"} />
+                   </div>
 
                     {/* Start of row 2 */}
                     
-                    <a href={REACT_APP_VIEW_URL} className="col-start-1 row-start-2
+                    <div  className="col-start-1 row-start-2
              w-full h-full flex justify-center m-4 sm:pb-20 ">
-                 <Picture picture={kickingview} setPic={true} alt={"Kicking Horse View NFT on OpenSea"} />
-            </a>
+                 <Picture picture={kickingview} setPic={'OpenSea'}link={REACT_APP_VIEW_URL} alt={"Kicking Horse View NFT on OpenSea"} />
+            </div>
             
-            <a href={REACT_APP_FIRST_URL} className="col-start-2 row-start-2
+            <div  className="col-start-2 row-start-2
              w-full h-full flex justify-center m-4 sm:pb-20 ">
-                 <Picture picture={firstsnow} setPic={true} alt={"First Snow NFT on OpenSea"} />
-            </a>
+                 <Picture picture={firstsnow} setPic={'OpenSea'}link={REACT_APP_FIRST_URL} alt={"First Snow NFT on OpenSea"} />
+            </div>
             
-                    <a href={REACT_APP_BRIDGE_URL} className="col-start-3 row-start-2
+                    <div  className="col-start-3 row-start-2
              w-full h-full flex justify-center m-4 sm:pb-20 ">
-                      <Picture picture={overthebridgeoncemore} setPic={true} alt={"Bridge in Rogers Pass NFT on OpenSea"} />
-                    </a>
+                      <Picture picture={overthebridgeoncemore}link={REACT_APP_BRIDGE_URL} setPic={'OpenSea'} alt={"Bridge in Rogers Pass NFT on OpenSea"} />
+                    </div>
                        {/* Start of row 3 */}
                       
-                       <a href={REACT_APP_NEXT_URL} className="col-start-1 row-start-3
+                       <div  className="col-start-1 row-start-3
              w-full h-full flex justify-center m-4 sm:pb-20 ">
-                <Picture picture={tothenextskitown} setPic={true} alt={"To the Next NFT on OpenSea"} />
-            </a>
+                <Picture picture={tothenextskitown} setPic={'OpenSea'}link={REACT_APP_NEXT_URL} alt={"To the Next NFT on OpenSea"} />
+            </div>
             
-            < a href={REACT_APP_POWDERHUNTER_URL} className="col-start-2 row-start-3
+            < div  className="col-start-2 row-start-3
              w-full h-full flex justify-center m-4 sm:pb-20 ">
-                <Picture picture={Imnotstuckyourstuck} setPic={true} alt={"Stuck NFT on OpenSea"} />
-            </a>
+                <Picture picture={Imnotstuckyourstuck} setPic={'OpenSea'}link={REACT_APP_POWDERHUNTER_URL} alt={"Stuck NFT on OpenSea"} />
+            </div>
             
-                    < a href={REACT_APP_LOOKOUT_URL}className="col-start-3 row-start-3
+                    < div className="col-start-3 row-start-3
              w-full h-full flex justify-center m-4 sm:pb-20 ">
-                       <Picture picture={traverselookout} setPic={true} alt={"Lookout NFT on OpenSea"} />
-                    </a>
+                       <Picture picture={traverselookout} setPic={'OpenSea'} link={REACT_APP_LOOKOUT_URL}alt={"Lookout NFT on OpenSea"} />
+                    </div>
                
             
                       {/* Start of row 4 */}
                       
-                      <a href={REACT_APP_BACK_URL}className="col-start-1 row-start-4
+                      <div className="col-start-1 row-start-4
              w-full h-full flex justify-center m-4 sm:pb-20 ">
-                <Picture picture={backseatdriver} setPic={true} alt={"Backseat NFT on OpenSea"} />
-            </a>
+                <Picture picture={backseatdriver} setPic={'OpenSea'} link={REACT_APP_BACK_URL}alt={"Backseat NFT on OpenSea"} />
+            </div>
             
-            < a href={REACT_APP_DRIVE_URL}className="col-start-2 row-start-4
+            < div className="col-start-2 row-start-4
              w-full h-full flex justify-center m-4 sm:pb-20 ">
-                <Picture picture={drivesafe} setPic={true} alt={"Drive Safe on NFT OpenSea"} />
-            </a>
+                <Picture picture={drivesafe} setPic={'OpenSea'}link={REACT_APP_DRIVE_URL} alt={"Drive Safe on NFT OpenSea"} />
+            </div>
             
-                    < a href={REACT_APP_EARN_URL}className="col-start-3 row-start-4
+                    < div className="col-start-3 row-start-4
              w-full h-full flex justify-center m-4 sm:pb-20 ">
-                       <Picture picture={skibumgrind} setPic={true} alt={"Ski Bum Grind NFT on OpenSea"} />
+                       <Picture picture={skibumgrind} setPic={'OpenSea'}link={REACT_APP_EARN_URL} alt={"Ski Bum Grind NFT on OpenSea"} />
                     
-                    </a>
+                    </div>
                 </div>
             </div>
          <ScrollToTop/>
