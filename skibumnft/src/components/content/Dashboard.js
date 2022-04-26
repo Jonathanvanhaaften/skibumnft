@@ -45,7 +45,7 @@ export default function Dashboard() {
 
             <div className="col-start-1 row-start-4
              w-full h-full flex justify-center sm:m-4 row-spam-2">
-                <Picture picture={van_img} setPic={true} alt={"Ski Bum Van Image"}/>
+                <Picture picture={van_img} link={REACT_APP_FOUNDATION_URL} setPic={"OpenSea"} alt={"Ski Bum Van Image"}/>
             </div>
 
             <div className="row-start-3 col-start-2 flex justify-center mr-10 col-span-2 row-span-3">
@@ -83,26 +83,26 @@ export default function Dashboard() {
                     
             </div>
             <div className="col-start-2 col-span-2 row-start-11 row-spam-2 md:grid mb-20">
-            < a href={REACT_APP_FTURN_URL}className=" col-start-1 row-start-7
+            <div className=" col-start-1 row-start-7
              w-full h-full flex justify-center sm:m-4 row-spam-2">
-               <Picture  picture={turns} setPic={true} alt={"Turns NFT on Foundation"}/>
-           </a>
+               <Picture  picture={turns} setPic={"Foundation"} link={REACT_APP_FTURN_URL} alt={"Turns NFT on Foundation"}/>
+           </div>
             
-            < a href={REACT_APP_FKNESS_URL}className="  col-start-2 row-start-7
+            < div className="  col-start-2 row-start-7
              w-full h-full flex justify-center sm:m-4 row-spam-2">
-                  <Picture picture={knees} setPic={true} alt={"Powder Kness on NFT Foundation"} />
-             </a></div>
+                  <Picture picture={knees} setPic={"Foundation"}  link={REACT_APP_FKNESS_URL}alt={"Powder Kness on NFT Foundation"} />
+             </div></div>
              
              <div className="col-start-1 col-span-2 row-start-11 row-spam-2 md:grid mb-20">
-             < a href={REACT_APP_FPAUSE_URL}className=" col-start-2 row-start-11
+             <div className=" col-start-2 row-start-11
              w-full h-full flex justify-center sm:m-4 row-spam-2">
-               <Picture  picture={tour} setPic={true} alt={"After Powder Pause NFT on Foundation"}/>
-           </a>
+               <Picture  picture={tour} setPic={"Foundation"}  link={REACT_APP_FPAUSE_URL} alt={"After Powder Pause NFT on Foundation"}/>
+           </div>
             
-            < a href={REACT_APP_FZIMA_URL}className="  col-start-3 row-start-11
+            < div className="  col-start-3 row-start-11
              w-full h-full flex justify-center sm:m-4 row-spam-2">
-                  <Picture picture={zima} setPic={true} alt={"Zima After the storm NFT on Foundation"} />
-             </a></div>
+                  <Picture picture={zima} setPic={"Foundation"} link={REACT_APP_FZIMA_URL} alt={"Zima After the storm NFT on Foundation"} />
+             </div></div>
             {/* <div className="col-start-3 row-start-6
              w-full h-full flex justify-center sm:m-4 sm:pb-40 row-spam-2">
                 <Picture/>
