@@ -18,8 +18,9 @@ import skibumgrind from '../../images/nftart/skibumgrind.png'
 import tothenextskitown from '../../images/nftart/tothenextskitown.png'
 import traverselookout from '../../images/nftart/traverselookout.png'
 import turns from '../../images/nftart/turns.png'
-import powderrknees from '../../images/nftart/powderrknees.png'
-
+import knees from '../../images/nftart/powderrknees.png'
+import zima from '../../images/nftart/zimaafterthestorm.png'
+import tour from '../../images/nftart/tourpause.png'
 
 
 
@@ -37,6 +38,11 @@ const Gallery = () => {
     const {REACT_APP_LOOKOUT_URL} = process.env
     const {REACT_APP_EARN_URL} = process.env
     const {REACT_APP_BACK_URL} = process.env
+    const {REACT_APP_FOUNDATION_URL} = process.env
+    const {REACT_APP_FTURN_URL} = process.env
+    const {REACT_APP_FKNESS_URL} = process.env
+    const {REACT_APP_FZIMA_URL} = process.env
+    const {REACT_APP_FPAUSE_URL} = process.env
 
 
 
@@ -53,74 +59,114 @@ const Gallery = () => {
                      
                     {/* Start of components */}
           <div>
+             <dir>
+                <h1 className="text-white text-8xl text-center">Gallery</h1>
+               <p className="text-white text-6xl text-center">
+                  Genesis Collection from OpenSea <br/>
+                  'Ski Bum in a Van'               
+               </p>
+             </dir>
          <div className="md:grid md:grid-col-6 md:grid-rows-3 sm:mb-20 mr-8">
          
-            < a href={REACT_APP_NOTCH_URL} className="col-start-1 
+            < div  className="col-start-1 
              w-full h-full flex justify-center m-4  sm:pb-20 ">
-                <Picture picture={nikkysnotch} setPic={true} alt={"Nikkys Notch NFT on OpenSea"}/>
-           </a> 
+                <Picture picture={nikkysnotch} link={REACT_APP_NOTCH_URL}  title={'Nicci\'s notch'} eth={'0.20 ETH'} setPic={'OpenSea'} alt={"Nikkys Notch NFT on OpenSea"}/>
+           </div> 
             
-            <a href={REACT_APP_DEEP_URL} className="col-start-2 
+            <div  className="col-start-2 
              w-full h-full flex justify-center m-4 sm:pb-20 ">
-                <Picture picture={deep} setPic={true} alt={"Deep NFT on OpenSea"} />
-            </a>
-             <a href={REACT_APP_DEEPVAN_URL} className="col-start-3 
+                <Picture picture={deep} setPic={'OpenSea'}link={REACT_APP_DEEP_URL}  title={'Deep'} eth={'0.20 ETH'} alt={"Deep NFT on OpenSea"} />
+            </div>
+             <div  className="col-start-3 
              w-full h-full flex justify-center m-4 sm:pb-20 ">
-                        <Picture picture={deepvan} setPic={true} alt={"Deep Van NFT on OpenSea"} />
-                   </a>
+                        <Picture picture={deepvan} setPic={'OpenSea'} link={REACT_APP_DEEPVAN_URL}  title={'Deep Van'} eth={'0.10 ETH'} alt={"Deep Van NFT on OpenSea"} />
+                   </div>
 
                     {/* Start of row 2 */}
                     
-                    <a href={REACT_APP_VIEW_URL} className="col-start-1 row-start-2
+                    <div  className="col-start-1 row-start-2
              w-full h-full flex justify-center m-4 sm:pb-20 ">
-                 <Picture picture={kickingview} setPic={true} alt={"Kicking Horse View NFT on OpenSea"} />
-            </a>
+                 <Picture picture={kickingview} setPic={'OpenSea'} link={REACT_APP_VIEW_URL}  title={'Turns with a View'} eth={'0.15 ETH'} alt={"Kicking Horse View NFT on OpenSea"} />
+            </div>
             
-            <a href={REACT_APP_FIRST_URL} className="col-start-2 row-start-2
+            <div  className="col-start-2 row-start-2
              w-full h-full flex justify-center m-4 sm:pb-20 ">
-                 <Picture picture={firstsnow} setPic={true} alt={"First Snow NFT on OpenSea"} />
-            </a>
+                 <Picture picture={firstsnow} setPic={'OpenSea'}link={REACT_APP_FIRST_URL}  title={'First Snow'} eth={'0.10 ETH'} alt={"First Snow NFT on OpenSea"} />
+            </div>
             
-                    <a href={REACT_APP_BRIDGE_URL} className="col-start-3 row-start-2
+                    <div  className="col-start-3 row-start-2
              w-full h-full flex justify-center m-4 sm:pb-20 ">
-                      <Picture picture={overthebridgeoncemore} setPic={true} alt={"Bridge in Rogers Pass NFT on OpenSea"} />
-                    </a>
+                      <Picture picture={overthebridgeoncemore}link={REACT_APP_BRIDGE_URL}  title={'Touring bridge in bear ally'} eth={'0.10 ETH'} setPic={'OpenSea'} alt={"Bridge in Rogers Pass NFT on OpenSea"} />
+                    </div>
                        {/* Start of row 3 */}
                       
-                       <a href={REACT_APP_NEXT_URL} className="col-start-1 row-start-3
+                       <div  className="col-start-1 row-start-3
              w-full h-full flex justify-center m-4 sm:pb-20 ">
-                <Picture picture={tothenextskitown} setPic={true} alt={"To the Next NFT on OpenSea"} />
-            </a>
+                <Picture picture={tothenextskitown} setPic={'OpenSea'}link={REACT_APP_NEXT_URL}  title={'Won\'t you take me to the next ski town'} eth={'0.15 ETH'} alt={"To the Next NFT on OpenSea"} />
+            </div>
             
-            < a href={REACT_APP_POWDERHUNTER_URL} className="col-start-2 row-start-3
+            < div  className="col-start-2 row-start-3
              w-full h-full flex justify-center m-4 sm:pb-20 ">
-                <Picture picture={Imnotstuckyourstuck} setPic={true} alt={"Stuck NFT on OpenSea"} />
-            </a>
+                <Picture picture={Imnotstuckyourstuck} setPic={'OpenSea'}link={REACT_APP_POWDERHUNTER_URL}  title={'Powder hunter'} eth={'SOLD'} alt={"Stuck NFT on OpenSea"} />
+            </div>
             
-                    < a href={REACT_APP_LOOKOUT_URL}className="col-start-3 row-start-3
+                    < div className="col-start-3 row-start-3
              w-full h-full flex justify-center m-4 sm:pb-20 ">
-                       <Picture picture={traverselookout} setPic={true} alt={"Lookout NFT on OpenSea"} />
-                    </a>
+                       <Picture picture={traverselookout} setPic={'OpenSea'} link={REACT_APP_LOOKOUT_URL}  title={'Traverse look out'} eth={'0.15 ETH'} alt={"Lookout NFT on OpenSea"} />
+                    </div>
                
             
                       {/* Start of row 4 */}
                       
-                      <a href={REACT_APP_BACK_URL}className="col-start-1 row-start-4
+                      <div className="col-start-1 row-start-4
              w-full h-full flex justify-center m-4 sm:pb-20 ">
-                <Picture picture={backseatdriver} setPic={true} alt={"Backseat NFT on OpenSea"} />
-            </a>
+                <Picture picture={backseatdriver} setPic={'OpenSea'} link={REACT_APP_BACK_URL}  title={'Back seat driver'} eth={'SOLD'} alt={"Backseat NFT on OpenSea"} />
+            </div>
             
-            < a href={REACT_APP_DRIVE_URL}className="col-start-2 row-start-4
+            < div className="col-start-2 row-start-4
              w-full h-full flex justify-center m-4 sm:pb-20 ">
-                <Picture picture={drivesafe} setPic={true} alt={"Drive Safe on NFT OpenSea"} />
-            </a>
+                <Picture picture={drivesafe} setPic={'OpenSea'}link={REACT_APP_DRIVE_URL}  title={'Drive safe'} eth={'0.10 ETH'} alt={"Drive Safe on NFT OpenSea"} />
+            </div>
             
-                    < a href={REACT_APP_EARN_URL}className="col-start-3 row-start-4
+                    < div className="col-start-3 row-start-4
              w-full h-full flex justify-center m-4 sm:pb-20 ">
-                       <Picture picture={skibumgrind} setPic={true} alt={"Ski Bum Grind NFT on OpenSea"} />
+                       <Picture picture={skibumgrind} setPic={'OpenSea'}link={REACT_APP_EARN_URL}  title={'The walk up to earn them turns'} eth={'0.17 ETH'} alt={"Ski Bum Grind NFT on OpenSea"} />
                     
-                    </a>
+                    </div>
                 </div>
+                {/* Start of Foundation collection */}
+                <dir>
+              
+               <p className="text-white text-6xl text-center">
+                   Collection from Foundation <br/>
+                  'Ski Bum Life'               
+               </p>
+             </dir>
+             <div className="md:grid md:grid-col-2 md:grid-rows-2 sm:mb-20 mr-8">
+         
+         < div  className="col-start-1 
+          w-full h-full flex justify-center m-4  sm:pb-20 ">
+               <Picture  picture={turns} setPic={"Foundation"} title={'Turns'} eth={'0.40 ETH'} link={REACT_APP_FTURN_URL} alt={"Turns NFT on Foundation"}/>
+        </div> 
+         
+         <div  className="col-start-2 
+          w-full h-full flex justify-center m-4 sm:pb-20 ">
+            <Picture picture={knees} setPic={"Foundation"}  title={'Powder Knees'} eth={'0.30 ETH'} link={REACT_APP_FKNESS_URL}alt={"Powder Kness on NFT Foundation"} />
+         </div>
+          
+                 {/* Start of row 2 */}
+                 
+                 <div  className="col-start-1 row-start-2
+          w-full h-full flex justify-center m-4 sm:pb-20 ">
+              <Picture  picture={tour} setPic={"Foundation"}  title={'After Powder Pause'} eth={'0.40 ETH'}  link={REACT_APP_FPAUSE_URL} alt={"After Powder Pause NFT on Foundation"}/>
+         </div>
+         
+         <div  className="col-start-2 row-start-2
+          w-full h-full flex justify-center m-4 sm:pb-20 ">
+             <Picture picture={zima} setPic={"Foundation"}  title={'Zima After the Storm'} eth={'0.10 ETH'} link={REACT_APP_FZIMA_URL} alt={"Zima After the storm NFT on Foundation"} />
+         </div>
+         
+         </div>
             </div>
          <ScrollToTop/>
        </Fragment>
