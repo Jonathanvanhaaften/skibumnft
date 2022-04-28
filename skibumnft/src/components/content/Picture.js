@@ -15,10 +15,11 @@ const Picture = ({picture,setPic,alt,link,title,eth}) => {
       {title}</strong></div>
     <ul className='flex justify-between text-white'>
       <li><strong>
-    <a href={link} className='text-white text-2xl'>{setPic}</a></strong>
+    <a href={link} className='text-white text-2xl hover:text-indigo-500'>{setPic}</a></strong>
       </li>
       <li>
-        <strong><p>{eth}</p></strong>
+        <strong><p className='text-2xl'>{eth}</p></strong>
+        
       </li>
     </ul>
     

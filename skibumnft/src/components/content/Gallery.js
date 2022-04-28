@@ -18,8 +18,9 @@ import skibumgrind from '../../images/nftart/skibumgrind.png'
 import tothenextskitown from '../../images/nftart/tothenextskitown.png'
 import traverselookout from '../../images/nftart/traverselookout.png'
 import turns from '../../images/nftart/turns.png'
-import powderrknees from '../../images/nftart/powderrknees.png'
-
+import knees from '../../images/nftart/powderrknees.png'
+import zima from '../../images/nftart/zimaafterthestorm.png'
+import tour from '../../images/nftart/tourpause.png'
 
 
 
@@ -37,6 +38,11 @@ const Gallery = () => {
     const {REACT_APP_LOOKOUT_URL} = process.env
     const {REACT_APP_EARN_URL} = process.env
     const {REACT_APP_BACK_URL} = process.env
+    const {REACT_APP_FOUNDATION_URL} = process.env
+    const {REACT_APP_FTURN_URL} = process.env
+    const {REACT_APP_FKNESS_URL} = process.env
+    const {REACT_APP_FZIMA_URL} = process.env
+    const {REACT_APP_FPAUSE_URL} = process.env
 
 
 
@@ -53,6 +59,13 @@ const Gallery = () => {
                      
                     {/* Start of components */}
           <div>
+             <dir>
+                <h1 className="text-white text-8xl text-center">Gallery</h1>
+               <p className="text-white text-6xl text-center">
+                  Genesis Collection from OpenSea <br/>
+                  'Ski Bum in a Van'               
+               </p>
+             </dir>
          <div className="md:grid md:grid-col-6 md:grid-rows-3 sm:mb-20 mr-8">
          
             < div  className="col-start-1 
@@ -121,6 +134,39 @@ const Gallery = () => {
                     
                     </div>
                 </div>
+                {/* Start of Foundation collection */}
+                <dir>
+              
+               <p className="text-white text-6xl text-center">
+                   Collection from Foundation <br/>
+                  'Ski Bum Life'               
+               </p>
+             </dir>
+             <div className="md:grid md:grid-col-2 md:grid-rows-2 sm:mb-20 mr-8">
+         
+         < div  className="col-start-1 
+          w-full h-full flex justify-center m-4  sm:pb-20 ">
+               <Picture  picture={turns} setPic={"Foundation"} title={'Turns'} eth={'0.40 ETH'} link={REACT_APP_FTURN_URL} alt={"Turns NFT on Foundation"}/>
+        </div> 
+         
+         <div  className="col-start-2 
+          w-full h-full flex justify-center m-4 sm:pb-20 ">
+            <Picture picture={knees} setPic={"Foundation"}  title={'Powder Knees'} eth={'0.30 ETH'} link={REACT_APP_FKNESS_URL}alt={"Powder Kness on NFT Foundation"} />
+         </div>
+          
+                 {/* Start of row 2 */}
+                 
+                 <div  className="col-start-1 row-start-2
+          w-full h-full flex justify-center m-4 sm:pb-20 ">
+              <Picture  picture={tour} setPic={"Foundation"}  title={'After Powder Pause'} eth={'0.40 ETH'}  link={REACT_APP_FPAUSE_URL} alt={"After Powder Pause NFT on Foundation"}/>
+         </div>
+         
+         <div  className="col-start-2 row-start-2
+          w-full h-full flex justify-center m-4 sm:pb-20 ">
+             <Picture picture={zima} setPic={"Foundation"}  title={'Zima After the Storm'} eth={'0.10 ETH'} link={REACT_APP_FZIMA_URL} alt={"Zima After the storm NFT on Foundation"} />
+         </div>
+         
+         </div>
             </div>
          <ScrollToTop/>
        </Fragment>

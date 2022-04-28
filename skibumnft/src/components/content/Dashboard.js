@@ -31,9 +31,14 @@ export default function Dashboard() {
           
             <div className="row-start-1  2xl:col-span-2 md:col-span-2 md:pl-40  pt-4">
                 <h1 className="sm:text-7xl text-3xl pl-10">The Misson</h1>
-                <p className="text-2xl p-4">We are fostering a community of ski, snowboard style 
-                    enthusiasts and connecting it all into the world of NFTs and metaverses  </p>
-                    
+                <p className="text-2xl p-4">
+
+We are fostering a community of skiing and snowboarding enthusiasts, 
+and connecting the culture with the world of NFTs and metaverses.
+I’ve been ski-bumming for over 20 years in Whistler and the Kootenay Rockies of BC, Canada.
+ I’m Jonathan vanHaaften, and I’ve worked in the hospitality industry all over the world, mostly in mountain towns.
+This project means a lot to me. My work evokes feelings of joy and freedom in and around the mountains, 
+along with the spontaneous nature of the ski-bum life, chasing the powder.</p> 
                     
             </div>
 {/*  sm:grid-rows-1 */}
@@ -43,12 +48,12 @@ export default function Dashboard() {
                 </div>
                
 
-            <div className="col-start-1 row-start-4
+            <div className="col-start-3 row-start-1
              w-full h-full flex justify-center sm:m-4 row-spam-2">
-                <Picture picture={van_img} link={REACT_APP_FOUNDATION_URL} 
-                title={'Ski Tour Van'} setPic={"OpenSea"} alt={"Ski Bum Van Image"}/>
+                <Picture picture={van_img} 
+                 alt={"Ski Bum Van Image"}/>
             </div>
-
+{/* 
             <div className="row-start-3 col-start-2 flex justify-center mr-10 col-span-2 row-span-3">
                 <div className="">
                     <h2 className="text-7xl text-center p-10" >Road Map</h2>
@@ -56,7 +61,7 @@ export default function Dashboard() {
                    <Picture className="" picture={roadmap} setPic={true} alt={"Roadmap"}/>
                     </div>
                 </div>
-            </div>
+            </div> */}
              <div className="row-start-6 row-span-2 col-start-2 ">
              
                       <TwitterFollowButton
