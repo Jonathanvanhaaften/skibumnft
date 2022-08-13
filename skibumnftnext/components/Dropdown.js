@@ -1,5 +1,4 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
+import Link from 'next/link'
 import f_logo from '../../images/f_logo_RGB-White_58.png'
 import insta_logo from '../../images/Instagram_Glyph_Gradient_RGB.png'
 import tiktok_logo from '../../images/tiktok-logo.png'
@@ -13,16 +12,16 @@ const dropdown = ({isOpen,toggle}) => {
     const {REACT_APP_OPENSEA_URL} = process.env
     return (
         <div className={isOpen ? "grid grid-rows-4 text-white text-center justify-content items-center bg-black" :"hidden"}onClick={toggle}>
-              <Link className="p-4" to='/'>
+              <Link className="p-4" href='/'>
                     Home
                 </Link>
-                <Link className="p-4" to='/links'>
+                <Link className="p-4" href='/links'>
                     Links
                 </Link>
-                <Link className="p-4" to='/gallery'>
+                <Link className="p-4" href='/gallery'>
                     Gallery
                 </Link>
-                <Link className="px-4" to='/stories'>
+                <Link className="px-4" href='/stories'>
                     Stories
                 </Link>
                 <a className="p-2 mx-auto" href={REACT_APP_OPENSEA_URL}>

@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+
+import Link from 'next/link'
 import f_logo from '../../images/f_logo_RGB-White_58.png'
 import insta_logo from '../../images/Instagram_Glyph_Gradient_RGB.png'
 import tiktok_logo from '../../images/tiktok-logo.png'
@@ -15,23 +15,23 @@ export const Navbar = ({toggle}) => {
     const {REACT_APP_OPENSEA_URL} = process.env
     return (
         <nav className='flex justify-between item-cetner py-4 h-11 bg-black text-white relative shadow-sm font-mono' role='navigation'>
-            <Link to='/'className='px-4'>Ski Bum NFT</Link>
+            <Link href='/' className='px-4'>Ski Bum NFT</Link>
             <div className="px-4 cursor-pointer md:hidden" onClick={toggle}>
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" /></svg>
             </div>
             <div className="lg:inline-flex pr-6 md:block hidden ">
-                <Link className="px-4" to='/'>
+                <Link className="px-4" href='/'>
                     Home
                 </Link>
     
-                <Link className="px-4" to='/links'>
+                <Link className="px-4" href='/links'>
                     Links
                 </Link>
-                <Link className="px-4" to='/gallery'>
+                <Link className="px-4" href='/gallery'>
                     Gallery
                 </Link>
-                <Link className="px-4" to='/stories'>
+                <Link className="px-4" href='/stories'>
                     Stories
                 </Link>
                 <div className="flex ">
