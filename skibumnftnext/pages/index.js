@@ -51,18 +51,12 @@ along with the spontaneous nature of the ski-bum life, chasing the powder.</p>
 
             <div className="col-start-3 row-start-1
              w-full h-full flex justify-center sm:m-4 row-spam-2">
-                <Picture picture={<Image scr ='/vankife.png'layout='full'/> } 
+                <Picture picture={'/vanlife.png'} 
+                height={'1000px'}
+                width={'1000px'}
                  alt={"Ski Bum Van Image"}/>
             </div>
-{/* 
-            <div className="row-start-3 col-start-2 flex justify-center mr-10 col-span-2 row-span-3">
-                <div className="">
-                    <h2 className="text-7xl text-center p-10" >Road Map</h2>
-                    <div className="m-10">
-                   <Picture className="" picture={roadmap} setPic={true} alt={"Roadmap"}/>
-                    </div>
-                </div>
-            </div> */}
+
              <div className="row-start-6 row-span-2 col-start-2 ">
              
                       <TwitterFollowButton
@@ -92,13 +86,13 @@ along with the spontaneous nature of the ski-bum life, chasing the powder.</p>
             <div className="col-start-2 col-span-2 row-start-11 row-spam-2 md:grid mb-20">
             <div className=" col-start-1 row-start-7
              w-full h-full flex justify-center sm:m-4 row-spam-2">
-               <Picture  picture={<Image scr ='/turns.png'layout='full'/> } 
+               <Picture  picture={'/turns.png'} 
                setPic={"Foundation"} title={'Turns'} eth={'0.40 ETH'} link={REACT_APP_FTURN_URL} alt={"Turns NFT on Foundation"}/>
            </div>
             
             < div className="  col-start-2 row-start-7
              w-full h-full flex justify-center sm:m-4 row-spam-2">
-                  <Picture picture={<Image scr ='/powderknees.png'layout='full'/> }
+                  <Picture picture={'/powderknees.png'}
                    setPic={"Foundation"}  title={'Powder Knees'} eth={'0.30 ETH'} 
                    link={REACT_APP_FKNESS_URL}alt={"Powder Kness on NFT Foundation"} />
              </div></div>
@@ -106,13 +100,13 @@ along with the spontaneous nature of the ski-bum life, chasing the powder.</p>
              <div className="col-start-1 col-span-2 row-start-11 row-spam-2 md:grid mb-20">
              <div className=" col-start-2 row-start-11
              w-full h-full flex justify-center sm:m-4 row-spam-2">
-               <Picture  picture={<Image scr ='/tourpause.png'layout='full'/> }
+               <Picture  picture={'/tourpause.png'}
                 setPic={"Foundation"}  title={'After Powder Pause'} eth={'0.40 ETH'}  link={REACT_APP_FPAUSE_URL} alt={"After Powder Pause NFT on Foundation"}/>
            </div>
             
             < div className="  col-start-3 row-start-11
              w-full h-full flex justify-center sm:m-4 row-spam-2">
-                  <Picture picture={<Image scr ='/zimaafterthestorm.png'layout='full'/> } setPic={"Foundation"}  title={'Zima After the Storm'} eth={'0.10 ETH'} link={REACT_APP_FZIMA_URL} alt={"Zima After the storm NFT on Foundation"} />
+                  <Picture picture={'/zimaafterthestorm.png' } setPic={"Foundation"}  title={'Zima After the Storm'} eth={'0.10 ETH'} link={REACT_APP_FZIMA_URL} alt={"Zima After the storm NFT on Foundation"} />
              </div></div>
             {/* <div className="col-start-3 row-start-6
              w-full h-full flex justify-center sm:m-4 sm:pb-40 row-spam-2">
@@ -205,7 +199,7 @@ along with the spontaneous nature of the ski-bum life, chasing the powder.</p>
                 < div className="pr-20 md:pr-0 row-start-3 col-start-1 row-span-3">
    
 
-       <Picture className="" picture={<Image scr ='/sunny.png'layout='full'/> } setPic={true} alt={"The Sunnies NFT"} />
+       <Picture className="" picture={'/sunny.png'} setPic={true} alt={"The Sunnies NFT"} />
      
        </div>  
      <div className="row-start-6 col-start-2">   <p className="text-3xl p-4 mt-5 text-center ">

@@ -1,13 +1,13 @@
+import Image from "next/image";
 
-
-const Picture = ({picture,setPic,alt,link,title,eth}) => {
+const Picture = ({picture,height,width,setPic,alt,link,title,eth}) => {
   const {REACT_APP_FOUNDATION_URL} = process.env
   // if (setPic  ){
     return(
     
     <div className="max-w-sm p-4 m-14 bg-fixed bg-cover rounded relative overflow-hidden  justify-center "
            style={{ backgroundImage:  `url('/bgimg.jpg')`  }}>  <div>
-    <img className='w-full' src={picture} alt={alt} /> 
+    <Image className='w-full' src={picture} width={width}height={height} alt={alt} /> 
     </div>
     <div className='text-white text-4xl'>
       <strong>
@@ -21,7 +21,7 @@ const Picture = ({picture,setPic,alt,link,title,eth}) => {
         
       </li>
     </ul>
-    
+    {console.log(picture)}
     </div>
          )
 //   }else{

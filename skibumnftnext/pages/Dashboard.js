@@ -47,7 +47,7 @@ along with the spontaneous nature of the ski-bum life, chasing the powder.</p>
 
             <div className="col-start-3 row-start-1
              w-full h-full flex justify-center sm:m-4 row-spam-2">
-                <Picture picture={<Image scr ='/vankife.png'layout='full'/> } 
+                <Picture picture={`url='/vanlife.png'` }
                  alt={"Ski Bum Van Image"}/>
             </div>
 {/* 
