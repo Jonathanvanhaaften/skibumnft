@@ -1,18 +1,15 @@
-
-import React from 'react'
-import Picture from './Picture'
-import { Link } from 'react-router-dom'
+import Image from 'next/image'
+import Picture from './../components/Picture'
 import InstagramEmbed from 'react-instagram-embed';
-
 import ScrollToTop from '../ScrollToTop'
 
-import roadmap from '../../images/roadmapmain.jpg'
-import van_img from '../../images/vanlife.png'
-import turns from '../../images/nftart/turns.png'
-import knees from '../../images/nftart/powderrknees.png'
-import zima from '../../images/nftart/zimaafterthestorm.png'
-import tour from '../../images/nftart/tourpause.png'
-import sunny from '../../images/sunny.png'
+
+// import van_img from '../public/vanlife.png'
+// import turns from '../public/turns.png'
+// import knees from '../public/powderrknees.png'
+// import zima from '../public/zimaafterthestorm.png'
+// import tour from '../public/tourpause.png'
+// import sunny from '../public/sunny.png'
 
 import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
 export default function Dashboard() {
@@ -50,7 +47,7 @@ along with the spontaneous nature of the ski-bum life, chasing the powder.</p>
 
             <div className="col-start-3 row-start-1
              w-full h-full flex justify-center sm:m-4 row-spam-2">
-                <Picture picture={van_img} 
+                <Picture picture={<Image scr ='/vankife.png'layout='full'/> } 
                  alt={"Ski Bum Van Image"}/>
             </div>
 {/* 
@@ -146,12 +143,12 @@ along with the spontaneous nature of the ski-bum life, chasing the powder.</p>
     <button className='transform transition-all  text-center py-3 row-start-4 text-4xl col-start-2  mt-10 rounded-md hover:bg-indigo-500 duration-300 '>
     <Link className="
       
-     " to='/ChrisBenart'>Pro Skier Chris Benchelter enters into the NFT world from sking to art NFTs </Link></button>
+     " to='/chrisBenart'>Pro Skier Chris Benchelter enters into the NFT world from sking to art NFTs </Link></button>
 
 <button className='transform transition-all  text-center py-3 row-start-5 text-4xl col-start-2  mt-10 rounded-md hover:bg-indigo-500 duration-300 '>
     <Link className="
       
-     " to='/ChrisSold'>Pro Skier Chris Benchelter NFT gose to Auction </Link></button>
+     " to='/chrisSold'>Pro Skier Chris Benchelter NFT gose to Auction </Link></button>
                 </div>
 
                    

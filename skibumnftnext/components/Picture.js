@@ -1,5 +1,4 @@
-import React from 'react';
-import  bgimg from '../../images/bgimg.jpg'
+
 
 const Picture = ({picture,setPic,alt,link,title,eth}) => {
   const {REACT_APP_FOUNDATION_URL} = process.env
@@ -7,7 +6,7 @@ const Picture = ({picture,setPic,alt,link,title,eth}) => {
     return(
     
     <div className="max-w-sm p-4 m-14 bg-fixed bg-cover rounded relative overflow-hidden  justify-center "
-           style={{ backgroundImage: `url('${bgimg}` }}>  <div>
+           style={{ backgroundImage:  `url('/bgimg.jpg')`  }}>  <div>
     <img className='w-full' src={picture} alt={alt} /> 
     </div>
     <div className='text-white text-4xl'>
