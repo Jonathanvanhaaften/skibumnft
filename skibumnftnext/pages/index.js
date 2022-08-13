@@ -92,8 +92,8 @@ export default function Dashboard() {
           >
             <Picture
               picture={"/turns.png"}
-              width={"100px"}
-              height={"100px"}
+              width={"1000px"}
+              height={"1000px"}
               setPic={"Foundation"}
               title={"Turns"}
               eth={"0.40 ETH"}
@@ -108,8 +108,8 @@ export default function Dashboard() {
           >
             <Picture
               picture={"/powderknees.png"}
-              width={"100px"}
-              height={"100px"}
+              width={"1000px"}
+              height={"1000px"}
               setPic={"Foundation"}
               title={"Powder Knees"}
               eth={"0.30 ETH"}
@@ -126,8 +126,8 @@ export default function Dashboard() {
           >
             <Picture
               picture={"/tourpause.png"}
-              width={"100px"}
-              height={"100px"}
+              width={"1000px"}
+              height={"1000px"}
               setPic={"Foundation"}
               title={"After Powder Pause"}
               eth={"0.40 ETH"}
@@ -142,8 +142,8 @@ export default function Dashboard() {
           >
             <Picture
               picture={"/zimaafterthestorm.png"}
-              width={"100px"}
-              height={"100px"}
+              width={"1000px"}
+              height={"1000px"}
               setPic={"Foundation"}
               title={"Zima After the Storm"}
               eth={"0.10 ETH"}
@@ -183,15 +183,16 @@ export default function Dashboard() {
                       rounded-md hover:bg-indigo-500 duration-300"
           >
             <Link className="text-center p-3" href="/stories">
-              Stories
+              <a>Stories</a>
             </Link>
           </button>
 
           <button className="transform transition-all  text-center py-3 row-start-4 text-4xl col-start-2  mt-10 rounded-md hover:bg-indigo-500 duration-300 ">
             <Link className="" href="/chrisBenart">
-              Pro Skier Chris Benchelter enters into the NFT world from sking to
-              art NFTs
-              {/* {" "} */}
+              <a>
+                Pro Skier Chris Benchelter enters into the NFT world from sking
+                to art NFTs
+              </a>
             </Link>
           </button>
 
@@ -201,7 +202,7 @@ export default function Dashboard() {
      "
               href="/chrisSold"
             >
-              Pro Skier Chris Benchelter NFT gose to Auction{" "}
+              <a>Pro Skier Chris Benchelter NFT gose to Auction </a>
             </Link>
           </button>
         </div>
@@ -219,7 +220,7 @@ export default function Dashboard() {
         <div className="row-start-5 col-start-2 text-center sm:text-7xl text-3xl  pt-4 ">
           <button className="transform transition-all  text-center py-3  text-6xl  rounded-md hover:bg-indigo-500 duration-300">
             <Link className="text-center p-3" href="/gallery">
-              Gallery
+              <a>Gallery</a>
             </Link>
           </button>
         </div>
@@ -256,8 +257,8 @@ export default function Dashboard() {
           <Picture
             className=""
             picture={"/sunny.png"}
-            width={"100px"}
-            height={"100px"}
+            width={"1000px"}
+            height={"1000px"}
             setPic={true}
             alt={"The Sunnies NFT"}
           />

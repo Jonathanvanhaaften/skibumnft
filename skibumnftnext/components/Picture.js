@@ -39,7 +39,6 @@ const Picture = ({ picture, height, width, setPic, alt, link, title, eth }) => {
           </strong>
         </li>
       </ul>
-      {console.log(picture)}
     </div>
   );
   // start of unlarge picture on click
