@@ -1,10 +1,10 @@
 
 import Link from 'next/link'
-import f_logo from '../../images/f_logo_RGB-White_58.png'
-import insta_logo from '../../images/Instagram_Glyph_Gradient_RGB.png'
-import tiktok_logo from '../../images/tiktok-logo.png'
-import twitter_logo from '../../images/twitter-logo.png'
-import opensea_logo from '../../images/opensea.png'
+// import f_logo from '../../images/f_logo_RGB-White_58.png'
+// import insta_logo from '../../images/Instagram_Glyph_Gradient_RGB.png'
+// import tiktok_logo from '../../images/tiktok-logo.png'
+// import twitter_logo from '../../images/twitter-logo.png'
+// import opensea_logo from '../../images/opensea.png'
 
 
 export const Navbar = ({toggle}) => {
@@ -36,18 +36,18 @@ export const Navbar = ({toggle}) => {
                 </Link>
                 <div className="flex ">
                 <a className="px-2" href={REACT_APP_OPENSEA_URL}>
-                    <img className="w-5 h-5" src={opensea_logo} alt="Facebook" /></a>
+                    <img className="w-5 h-5" src='/opensea.png' alt="OpenSea" /></a>
                 <a className="px-2" href={REACT_APP_FACEBOOK_URL}>
-                    <img className="w-5 h-5" src={f_logo} alt="Facebook" />
+                    <img className="w-5 h-5" src='/f_logo_RGB-White_58.png' alt="Facebook" />
                 </a>
                <a className="px-2" href={REACT_APP_TWITTER_URL}>
-                    <img className="w-5 h-5" src={twitter_logo} alt="Twitter" />
+                    <img className="w-5 h-5" src='/images/twitter-logo.png' alt="Twitter" />
                 </a>
                 <a className="px-2" href={REACT_APP_TIKTOK_URL}>
-                    <img className="w-6 h-8" src={tiktok_logo} alt="tiktok" />
+                    <img className="w-6 h-8" src='/tiktok-logo.png' alt="tiktok" />
                 </a>
                 <a className="px-2" href={REACT_APP_INSTA_URL}>
-                    <img className="w-5 h-5" src={insta_logo} alt="Instagram" />
+                    <img className="w-5 h-5" src='/Instagram_Glyph_Gradient_RGB.png' alt="Instagram" />
                 </a></div>
             </div> 
         </nav>
