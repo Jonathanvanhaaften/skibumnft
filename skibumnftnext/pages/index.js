@@ -33,7 +33,7 @@ export default function Dashboard() {
   const { REACT_APP_FPAUSE_URL } = process.env;
 
   return (
-    <div>
+    <div className="bg-black">
       <div className="bg-black md:grid md:p-4 md:grid-cols-3 sm:grid-cols-1 md:grid-rows-20 text-white">
         <div className="row-start-1  2xl:col-span-2 md:col-span-2 md:pl-40  pt-4">
           <h1 className="sm:text-7xl text-3xl pl-10">The Misson</h1>
