@@ -61,11 +61,7 @@ export const Navbar = ({ toggle }) => {
             />
           </a>
           <a className="px-2" href={REACT_APP_TWITTER_URL}>
-            <img
-              className="w-5 h-5"
-              src="/images/twitter-logo.png"
-              alt="Twitter"
-            />
+            <img className="w-5 h-5" src="/twitter-logo.png" alt="Twitter" />
           </a>
           <a className="px-2" href={REACT_APP_TIKTOK_URL}>
             <img className="w-6 h-8" src="/tiktok-logo.png" alt="tiktok" />
