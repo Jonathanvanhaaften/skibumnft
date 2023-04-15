@@ -13,11 +13,11 @@ export const Navbar = ({ toggle }) => {
   const { REACT_APP_OPENSEA_URL } = process.env;
   return (
     <nav
-      className="flex justify-between item-cetner py-4 h-11 bg-black text-white relative shadow-sm font-mono"
+      className="flex justify-between item-cetner py-4   h-11 bg-black text-white relative shadow-sm font-mono"
       role="navigation"
     >
-      <Link href="/" className="px-4">
-        <a>Ski Bum NFT</a>
+      <Link href="/">
+        <a className="px-4">Ski Bum NFT</a>
       </Link>
       <div className="px-4 cursor-pointer md:hidden" onClick={toggle}>
         <svg
@@ -35,19 +35,19 @@ export const Navbar = ({ toggle }) => {
           />
         </svg>
       </div>
-      <div className="lg:inline-flex pr-6 md:block hidden ">
-        <Link className="px-4" href="/">
-          Home
+      <div className="md:inline-flex pr-6   hidden ">
+        <Link href="/">
+          <a className="px-4">Home</a>
         </Link>
 
-        <Link className="px-4" href="/links">
-          <a>Links</a>
+        <Link href="/links">
+          <a className="px-4">Links</a>
         </Link>
-        <Link className="px-4" href="/gallery">
-          <a>Gallery</a>
+        <Link href="/gallery">
+          <a className="px-4">Gallery</a>
         </Link>
-        <Link className="px-4" href="/stories">
-          <a>Stories</a>
+        <Link href="/stories">
+          <a className="px-4">Stories</a>
         </Link>
         <div className="flex ">
           <a className="px-2" href={REACT_APP_OPENSEA_URL}>
