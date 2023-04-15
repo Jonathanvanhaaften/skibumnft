@@ -158,8 +158,8 @@ export default function Dashboard() {
             </div>
              */}
       </div>
-      <div className="bg-black md:grid md:p-4  sm:grid-cols-1 md:grid-cols-3 md:grid-rows-20 text-white">
-        <div className="row-start-1  2xl:col-span-2 md:col-span-2 md:pl-40  pt-4 ">
+      <div className="bg-black md:grid md:p-4  sm:grid-cols-1 md:grid-cols-6 md:grid-rows-20 text-white">
+        <div className="row-start-1  2xl:col-span-2 md:col-span-4 md:pl-40  pt-4 ">
           <p className="sm:text-7xl text-3xl pl-10 ">Ski Bum Life</p>
           <p className="text-2xl p-4">
             Living as a ski bum for over 20 years from whistler to BC's powder
@@ -168,7 +168,7 @@ export default function Dashboard() {
           </p>
         </div>
 
-        <div className="row-start-2  sm:text-7xl text-3xl  col-start-2  pt-4 m-5 ">
+        <div className="row-start-2   sm:text-7xl text-3xl  col-start-2 col-span-2   pt-4 ml-3 ">
           <p className="text-center pr-10"> Intoducing</p>
 
           <p className="text-2xl p-4 pr-10 ">
@@ -177,7 +177,7 @@ export default function Dashboard() {
           </p>
         </div>
 
-        <div className="row-start-3 col-start-2  text-center sm:text-7xl text-3xl   pt-4 ">
+        <div className="row-start-3 col-start-3 col-span-2  text-center sm:text-7xl text-3xl   pt-4 ">
           <button
             className="transform transition-all  text-center py-3 row-start-4 text-6xl col-start-2 
                       rounded-md hover:bg-indigo-500 duration-300"
@@ -203,7 +203,7 @@ export default function Dashboard() {
           </button>
         </div>
 
-        <div className="row-start-4  sm:text-7xl text-3xl  col-start-2  pt-4 m-5 border-indigo-500 border-8 shadow-md shadow-white">
+        <div className="row-start-4  sm:text-7xl text-3xl mt-20  col-start-4 col-span-2  pt-4 m-5 border-indigo-500 border-8 shadow-md shadow-white">
           <p className="text-center ">
             Come Check out <br /> the Gallery
           </p>
@@ -213,7 +213,7 @@ export default function Dashboard() {
           </p>
         </div>
 
-        <div className="row-start-5 col-start-2 text-center sm:text-7xl text-3xl  pt-4 ">
+        <div className="row-start-5 col-start-4 col-span-2 text-center sm:text-7xl text-3xl  pt-4 ">
           <button className="transform transition-all  text-center py-3  text-6xl  rounded-md hover:bg-indigo-500 duration-300">
             <Link href="/gallery">
               <a className="text-center p-3">Gallery</a>
@@ -243,8 +243,8 @@ export default function Dashboard() {
           />
         </div> */}
       </div>
-      <div className="bg-black md:grid md:p-4  sm:grid-cols-1 md:grid-cols-3 md:grid-rows-20 text-white">
-        <div className="row-start-1  sm:text-7xl text-3xl  col-start-2  pt-4  py-3  m-5  border-indigo-500 border-8 ">
+      <div className="bg-black md:grid md:p-4  sm:grid-cols-1 md:grid-cols-3 mt-32 md:grid-rows-20 text-white">
+        <div className="row-start-1  sm:text-7xl text-3xl  col-start-2  pt-4  py-3  m-5 shadow-md shadow-white border-indigo-500 border-8 ">
           <p className="text-center pr-10 md:pr-0">
             Excited to Join the Sunnies Commuity
           </p>
@@ -278,7 +278,7 @@ export default function Dashboard() {
       </div>{" "}
       <div className="bg-black md:grid md:p-4  sm:grid-cols-1 md:grid-cols-3 md:grid-rows-20 text-white">
         <div className="row-start-9 col-start-2">
-          <button className="transform transition-all  text-center py-3  text-6xl  rounded-md hover:bg-indigo-500 duration-300">
+          <button className="transform transition-all  text-center py-3  text-6xl mt-5  rounded-md hover:bg-indigo-500 duration-300">
             <a href="https://www.sunniesnft.com/">The Sunnies Website</a>
           </button>
         </div>
