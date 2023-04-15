@@ -49,7 +49,7 @@ function ChrisBentart() {
             </div>
           </div>
         </div>
-        <InstagramEmbed
+        {/* <InstagramEmbed
           url="https://www.instagram.com/p/B9AHuMqnvnp/"
           clientAccessToken="496284042016370|65abf0cb7787fa467f3266c9439db24e"
           maxWidth={320}
@@ -61,7 +61,7 @@ function ChrisBentart() {
           onSuccess={() => {}}
           onAfterRender={() => {}}
           onFailure={() => {}}
-        />
+        /> */}
         <br />
         <div className="row-start-3 col-start-1 col-span-2 text-3xl">
           <br />

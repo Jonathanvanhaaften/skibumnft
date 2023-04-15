@@ -188,7 +188,7 @@ export default function Dashboard() {
           </button>
 
           <button className="transform transition-all  text-center py-3 row-start-4 text-4xl col-start-2  mt-10 rounded-md hover:bg-indigo-500 duration-300 ">
-            <Link href="/chrisBenart">
+            <Link href="/chrisBentart">
               <a>
                 Pro Skier Chris Benchelter enters into the NFT world from sking
                 to art NFTs
@@ -220,7 +220,7 @@ export default function Dashboard() {
             </Link>
           </button>
         </div>
-        <div className="row-start-6 col-span-2  sm:text-7xl text-3xl  col-start-2  py-3  m-5  border-indigo-500 border-8">
+        {/* <div className="row-start-6 col-span-2  sm:text-7xl text-3xl  col-start-2  py-3  m-5  border-indigo-500 border-8">
           <p className="text-center pr-10">
             Come by & check out Ski NFT Instagram
           </p>
@@ -229,7 +229,7 @@ export default function Dashboard() {
         <div className="row-start-7 col-start-3  md:pr-20">
           <br />
           <InstagramEmbed
-            url="https://www.instagram.com/p/CYKBR_SJvUV/"
+            url="https://www.instagram.com/p/CceLqzFvcjU/"
             clientAccessToken="496284042016370|65abf0cb7787fa467f3266c9439db24e"
             maxWidth={320}
             hideCaption={false}
@@ -241,7 +241,7 @@ export default function Dashboard() {
             onAfterRender={() => {}}
             onFailure={() => {}}
           />
-        </div>
+        </div> */}
       </div>
       <div className="bg-black md:grid md:p-4  sm:grid-cols-1 md:grid-cols-3 md:grid-rows-20 text-white">
         <div className="row-start-1  sm:text-7xl text-3xl  col-start-2  pt-4  py-3  m-5  border-indigo-500 border-8 ">
