@@ -182,13 +182,13 @@ export default function Dashboard() {
             className="transform transition-all  text-center py-3 row-start-4 text-6xl col-start-2 
                       rounded-md hover:bg-indigo-500 duration-300"
           >
-            <Link className="text-center p-3" href="/stories">
-              <a>Stories</a>
+            <Link href="/stories">
+              <a className="text-center p-3">Stories</a>
             </Link>
           </button>
 
           <button className="transform transition-all  text-center py-3 row-start-4 text-4xl col-start-2  mt-10 rounded-md hover:bg-indigo-500 duration-300 ">
-            <Link className="" href="/chrisBenart">
+            <Link href="/chrisBenart">
               <a>
                 Pro Skier Chris Benchelter enters into the NFT world from sking
                 to art NFTs
@@ -197,11 +197,7 @@ export default function Dashboard() {
           </button>
 
           <button className="transform transition-all  text-center py-3 row-start-5 text-4xl col-start-2  mt-10 rounded-md hover:bg-indigo-500 duration-300 ">
-            <Link
-              className="   
-     "
-              href="/chrisSold"
-            >
+            <Link href="/chrisSold">
               <a>Pro Skier Chris Benchelter NFT gose to Auction </a>
             </Link>
           </button>
@@ -219,8 +215,8 @@ export default function Dashboard() {
 
         <div className="row-start-5 col-start-2 text-center sm:text-7xl text-3xl  pt-4 ">
           <button className="transform transition-all  text-center py-3  text-6xl  rounded-md hover:bg-indigo-500 duration-300">
-            <Link className="text-center p-3" href="/gallery">
-              <a>Gallery</a>
+            <Link href="/gallery">
+              <a className="text-center p-3">Gallery</a>
             </Link>
           </button>
         </div>
