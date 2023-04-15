@@ -2,7 +2,7 @@ import React from "react";
 import { Fragment } from "react";
 import InstagramEmbed from "react-instagram-embed";
 import Youtube from "./Youtube";
-import ScrollToTop from "../ScrollToTop";
+import ScrollToTop from "../components/ScrollToTop";
 import Link from "next/link";
 import {
   TwitterTimelineEmbed,
@@ -96,8 +96,8 @@ function ChrisBentart() {
         </div>
         <div className="row-start-5 col-start-2 text-center sm:text-7xl text-3xl  pt-4 ">
           <button className="transform transition-all  text-center py-3  text-6xl  rounded-md hover:bg-indigo-500 duration-300">
-            <Link className="text-center p-3" to="/gallery">
-              Gallery
+            <Link href="/gallery">
+              <div className="text-center p-3"> Gallery</div>
             </Link>
           </button>
         </div>
