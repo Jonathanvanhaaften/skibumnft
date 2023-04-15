@@ -52,9 +52,9 @@ const Gallery = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       ;{/* Start of components */}
-      <div>
-        <div>
-          <h1 className="text-white text-8xl text-center">Gallery</h1>
+      <div className=" ">
+        <h1 className="text-white text-8xl text-center">Gallery</h1>
+        <div className=" mt-5">
           <p className="text-white text-6xl text-center">
             Genesis Collection from OpenSea <br />
             'Ski Bum in a Van'
@@ -71,7 +71,7 @@ const Gallery = () => {
               width={"1000px"}
               link={REACT_APP_NOTCH_URL}
               title={"Nicci's notch"}
-              eth={"0.20 ETH"}
+              eth={"Vault"}
               setPic={"OpenSea"}
               alt={"Nikkys Notch NFT on OpenSea"}
             />
@@ -88,7 +88,7 @@ const Gallery = () => {
               setPic={"OpenSea"}
               link={REACT_APP_DEEP_URL}
               title={"Deep"}
-              eth={"0.20 ETH"}
+              eth={"Vault"}
               alt={"Deep NFT on OpenSea"}
             />
           </div>
@@ -103,7 +103,7 @@ const Gallery = () => {
               setPic={"OpenSea"}
               link={REACT_APP_DEEPVAN_URL}
               title={"Deep Van"}
-              eth={"0.10 ETH"}
+              eth={"Vault"}
               alt={"Deep Van NFT on OpenSea"}
             />
           </div>
@@ -121,7 +121,7 @@ const Gallery = () => {
               setPic={"OpenSea"}
               link={REACT_APP_VIEW_URL}
               title={"Turns with a View"}
-              eth={"0.15 ETH"}
+              eth={"Vault"}
               alt={"Kicking Horse View NFT on OpenSea"}
             />
           </div>
@@ -137,7 +137,7 @@ const Gallery = () => {
               setPic={"OpenSea"}
               link={REACT_APP_FIRST_URL}
               title={"First Snow"}
-              eth={"0.10 ETH"}
+              eth={"Vault"}
               alt={"First Snow NFT on OpenSea"}
             />
           </div>
@@ -152,7 +152,7 @@ const Gallery = () => {
               width={"1000px"}
               link={REACT_APP_BRIDGE_URL}
               title={"Touring bridge in bear ally"}
-              eth={"0.10 ETH"}
+              eth={"Vault"}
               setPic={"OpenSea"}
               alt={"Bridge in Rogers Pass NFT on OpenSea"}
             />
@@ -170,7 +170,7 @@ const Gallery = () => {
               setPic={"OpenSea"}
               link={REACT_APP_NEXT_URL}
               title={"Won't you take me to the next ski town"}
-              eth={"0.15 ETH"}
+              eth={"Vault"}
               alt={"To the Next NFT on OpenSea"}
             />
           </div>
@@ -202,7 +202,7 @@ const Gallery = () => {
               setPic={"OpenSea"}
               link={REACT_APP_LOOKOUT_URL}
               title={"Traverse look out"}
-              eth={"0.15 ETH"}
+              eth={"Vault"}
               alt={"Lookout NFT on OpenSea"}
             />
           </div>
@@ -236,7 +236,7 @@ const Gallery = () => {
               setPic={"OpenSea"}
               link={REACT_APP_DRIVE_URL}
               title={"Drive safe"}
-              eth={"0.10 ETH"}
+              eth={"Vault"}
               alt={"Drive Safe on NFT OpenSea"}
             />
           </div>
@@ -252,7 +252,7 @@ const Gallery = () => {
               setPic={"OpenSea"}
               link={REACT_APP_EARN_URL}
               title={"The walk up to earn them turns"}
-              eth={"0.17 ETH"}
+              eth={"Vault"}
               alt={"Ski Bum Grind NFT on OpenSea"}
             />
           </div>
