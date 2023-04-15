@@ -28,7 +28,7 @@ export default function Stories() {
           <Link
             className="    
      "
-            href="/chrisBenart"
+            href="/chrisBentart"
           >
             <a>
               Pro Skier Chris Benchelter enters into the NFT world from sking to

@@ -2,7 +2,8 @@ import React from "react";
 import { Fragment } from "react";
 import InstagramEmbed from "react-instagram-embed";
 import Youtube from "./Youtube";
-import ScrollToTop from "../ScrollToTop";
+// import ScrollToTop from "../ScrollToTop";
+import ScrollToTop from "../components/ScrollToTop";
 import Link from "next/link";
 import Head from "next/head";
 
@@ -243,9 +244,11 @@ function ChrisBentart() {
             all his ventures. He brings a certain innovation, and has definitely
             influenced
             <button className="transform transition-all    rounded-md hover:bg-indigo-500 duration-300">
-              <Link className="text-center p-3" to="/gallery">
-                {" "}
-                my work.
+              <Link href="/gallery">
+                <div className="text-center  px-3">
+                  {" "}
+                  <em>my work.</em>
+                </div>
               </Link>
             </button>
             With Chris entering the NFT space it lends credibility to the future
