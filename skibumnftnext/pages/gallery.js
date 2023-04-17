@@ -54,6 +54,80 @@ const Gallery = () => {
       ;{/* Start of components */}
       <div className=" ">
         <h1 className="text-white text-8xl text-center">Gallery</h1>
+        {/* Start of Foundation collection */}
+        <dir>
+          <p className="text-white text-6xl text-center">
+            Collection from Foundation <br />
+            'Ski Bum Life'
+          </p>
+        </dir>
+        <div className="md:grid md:grid-col-2 md:grid-rows-2 sm:mb-20 mr-8">
+          <div
+            className="col-start-1 
+          w-full h-full flex justify-center m-4  sm:pb-20 "
+          >
+            <Picture
+              picture={"/turns.png"}
+              height={"1000px"}
+              width={"1000px"}
+              setPic={"Foundation"}
+              title={"Turns"}
+              eth={"0.40 ETH"}
+              link={REACT_APP_FTURN_URL}
+              alt={"Turns NFT on Foundation"}
+            />
+          </div>
+
+          <div
+            className="col-start-2 
+          w-full h-full flex justify-center m-4 sm:pb-20 "
+          >
+            <Picture
+              picture={"/powderknees.png"}
+              height={"1000px"}
+              width={"1000px"}
+              setPic={"Foundation"}
+              title={"Powder Knees"}
+              eth={"0.30 ETH"}
+              link={REACT_APP_FKNESS_URL}
+              alt={"Powder Kness on NFT Foundation"}
+            />
+          </div>
+
+          {/* Start of row 2 */}
+
+          <div
+            className="col-start-1 row-start-2
+          w-full h-full flex justify-center m-4 sm:pb-20 "
+          >
+            <Picture
+              picture={"/tourpause.png"}
+              height={"1000px"}
+              width={"1000px"}
+              setPic={"Foundation"}
+              title={"After Powder Pause"}
+              eth={"0.40 ETH"}
+              link={REACT_APP_FPAUSE_URL}
+              alt={"After Powder Pause NFT on Foundation"}
+            />
+          </div>
+
+          <div
+            className="col-start-2 row-start-2
+          w-full h-full flex justify-center m-4 sm:pb-20 "
+          >
+            <Picture
+              picture={"/zimaafterthestorm.png"}
+              height={"1000px"}
+              width={"1000px"}
+              setPic={"Foundation"}
+              title={"Zima After the Storm"}
+              eth={"0.10 ETH"}
+              link={REACT_APP_FZIMA_URL}
+              alt={"Zima After the storm NFT on Foundation"}
+            />
+          </div>
+        </div>
         <div className=" mt-5">
           <p className="text-white text-6xl text-center">
             Genesis Collection from OpenSea <br />
@@ -254,80 +328,6 @@ const Gallery = () => {
               title={"The walk up to earn them turns"}
               eth={"Vault"}
               alt={"Ski Bum Grind NFT on OpenSea"}
-            />
-          </div>
-        </div>
-        {/* Start of Foundation collection */}
-        <dir>
-          <p className="text-white text-6xl text-center">
-            Collection from Foundation <br />
-            'Ski Bum Life'
-          </p>
-        </dir>
-        <div className="md:grid md:grid-col-2 md:grid-rows-2 sm:mb-20 mr-8">
-          <div
-            className="col-start-1 
-          w-full h-full flex justify-center m-4  sm:pb-20 "
-          >
-            <Picture
-              picture={"/turns.png"}
-              height={"1000px"}
-              width={"1000px"}
-              setPic={"Foundation"}
-              title={"Turns"}
-              eth={"0.40 ETH"}
-              link={REACT_APP_FTURN_URL}
-              alt={"Turns NFT on Foundation"}
-            />
-          </div>
-
-          <div
-            className="col-start-2 
-          w-full h-full flex justify-center m-4 sm:pb-20 "
-          >
-            <Picture
-              picture={"/powderknees.png"}
-              height={"1000px"}
-              width={"1000px"}
-              setPic={"Foundation"}
-              title={"Powder Knees"}
-              eth={"0.30 ETH"}
-              link={REACT_APP_FKNESS_URL}
-              alt={"Powder Kness on NFT Foundation"}
-            />
-          </div>
-
-          {/* Start of row 2 */}
-
-          <div
-            className="col-start-1 row-start-2
-          w-full h-full flex justify-center m-4 sm:pb-20 "
-          >
-            <Picture
-              picture={"/tourpause.png"}
-              height={"1000px"}
-              width={"1000px"}
-              setPic={"Foundation"}
-              title={"After Powder Pause"}
-              eth={"0.40 ETH"}
-              link={REACT_APP_FPAUSE_URL}
-              alt={"After Powder Pause NFT on Foundation"}
-            />
-          </div>
-
-          <div
-            className="col-start-2 row-start-2
-          w-full h-full flex justify-center m-4 sm:pb-20 "
-          >
-            <Picture
-              picture={"/zimaafterthestorm.png"}
-              height={"1000px"}
-              width={"1000px"}
-              setPic={"Foundation"}
-              title={"Zima After the Storm"}
-              eth={"0.10 ETH"}
-              link={REACT_APP_FZIMA_URL}
-              alt={"Zima After the storm NFT on Foundation"}
             />
           </div>
         </div>
