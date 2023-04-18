@@ -75,15 +75,16 @@ export default function Dashboard() {
       </div>
       <div className="bg-black md:grid md:p-4 md:grid-cols-3 sm:grid-cols-1 md:grid-rows-15 text-white">
         <div className="row-start-1  2xl:col-span-2 md:col-span-2 md:pl-40  pt-4 ">
-          <a
-            href={REACT_APP_FOUNDATION_URL}
-            className="transform transition-all
-                sm:text-7xl text-3xl pl-10  rounded-md hover:bg-indigo-500 duration-300 "
+          <p
+            className="
+                sm:text-7xl text-3xl pl-10  rounded-md "
           >
-            Foundation Collection:
-          </a>
+            Upcoming Drop:
+          </p>
 
-          <p className="sm:text-7xl text-3xl pl-10 pt-3">Ski Bum Life</p>
+          <p className="sm:text-7xl text-3xl pl-10 pt-3">
+            Visions Through the Trees
+          </p>
         </div>
         <div className="col-start-2 col-span-2 row-start-11 row-spam-2 md:grid mb-20">
           <div
@@ -91,14 +92,14 @@ export default function Dashboard() {
              w-full h-full flex justify-center sm:m-4 row-spam-2"
           >
             <Picture
-              picture={"/turns.png"}
+              picture={"/Visionssnow.png"}
               width={"1000px"}
               height={"1000px"}
-              setPic={"Foundation"}
-              title={"Turns"}
-              eth={"0.40 ETH"}
-              link={REACT_APP_FTURN_URL}
-              alt={"Turns NFT on Foundation"}
+              setPic={"Coming Soon"}
+              title={"Visions of the snow"}
+              eth={""}
+              link={"#"}
+              alt={"Visions of the snow"}
             />
           </div>
 
@@ -107,13 +108,13 @@ export default function Dashboard() {
              w-full h-full flex justify-center sm:m-4 row-spam-2"
           >
             <Picture
-              picture={"/powderknees.png"}
+              picture={"/Withinthetrees.png"}
               width={"1000px"}
               height={"1000px"}
-              setPic={"Foundation"}
-              title={"Powder Knees"}
-              eth={"0.30 ETH"}
-              link={REACT_APP_FKNESS_URL}
+              setPic={"Coming Soon"}
+              title={"Within the Trees"}
+              eth={""}
+              link={"#"}
               alt={"Powder Kness on NFT Foundation"}
             />
           </div>
@@ -125,14 +126,14 @@ export default function Dashboard() {
              w-full h-full flex justify-center sm:m-4 row-spam-2"
           >
             <Picture
-              picture={"/tourpause.png"}
+              picture={"/Visionsofspring.png"}
               width={"1000px"}
               height={"1000px"}
-              setPic={"Foundation"}
-              title={"After Powder Pause"}
-              eth={"0.40 ETH"}
-              link={REACT_APP_FPAUSE_URL}
-              alt={"After Powder Pause NFT on Foundation"}
+              setPic={"Coming Soon"}
+              title={"Visions of spring"}
+              eth={""}
+              link={"#"}
+              alt={"Visions of spring"}
             />
           </div>
 
@@ -141,14 +142,14 @@ export default function Dashboard() {
              w-full h-full flex justify-center sm:m-4 row-spam-2"
           >
             <Picture
-              picture={"/zimaafterthestorm.png"}
+              picture={"/Visionsthrough.png"}
               width={"1000px"}
               height={"1000px"}
-              setPic={"Foundation"}
-              title={"Zima After the Storm"}
-              eth={"0.10 ETH"}
-              link={REACT_APP_FZIMA_URL}
-              alt={"Zima After the storm NFT on Foundation"}
+              setPic={"Coming Soon"}
+              title={"Visions through the trees"}
+              eth={""}
+              link={"#"}
+              alt={"Visions through the trees"}
             />
           </div>
         </div>
@@ -157,6 +158,39 @@ export default function Dashboard() {
                 <Picture/>
             </div>
              */}
+        <div className="col-start-2 col-span-2 row-start-11 row-spam-2 md:grid mb-20">
+          <div
+            className=" col-start-1 row-start-7
+             w-full h-full flex justify-center sm:m-4 row-spam-2"
+          >
+            <Picture
+              picture={"/Thepaththrough.png"}
+              width={"1000px"}
+              height={"1000px"}
+              setPic={"Coming Soon"}
+              title={"The path through"}
+              eth={""}
+              link={"#"}
+              alt={"The path through"}
+            />
+          </div>
+
+          <div
+            className="  col-start-2 row-start-7
+             w-full h-full flex justify-center sm:m-4 row-spam-2"
+          >
+            <Picture
+              picture={"/Lastofthemelt.png"}
+              width={"1000px"}
+              height={"1000px"}
+              setPic={"Coming Soon"}
+              title={"Last of the melt"}
+              eth={""}
+              link={"#"}
+              alt={"Last of the melt"}
+            />
+          </div>
+        </div>
       </div>
       <div className="bg-black md:grid md:p-4  sm:grid-cols-1 md:grid-cols-6 md:grid-rows-20 text-white">
         <div className="row-start-1  2xl:col-span-2 md:col-span-4 md:pl-40  pt-4 ">
