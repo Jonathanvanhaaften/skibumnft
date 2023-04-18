@@ -23,7 +23,6 @@ function ChrisBentart() {
     <Fragment>
       {/* helmet meta data for seo */}
       <Head>
-        <html lang="en" />
         <title>Ski Bum NFT (Benchelter NFT Article)</title>
 
         <meta

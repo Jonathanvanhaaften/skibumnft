@@ -11,7 +11,6 @@ export default function Links() {
     <Fragment>
       {/* helmet meta data for seo */}
       <Head>
-        <html lang="en" />
         <title>Ski Bum NFT Links</title>
         <meta
           name="description"
