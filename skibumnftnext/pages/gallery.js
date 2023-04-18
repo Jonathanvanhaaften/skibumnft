@@ -57,9 +57,63 @@ const Gallery = () => {
         {/* Start of Foundation collection */}
         <dir>
           <p className="text-white text-6xl text-center">
-            Collection from Foundation <br />
-            'Ski Bum Life'
+            Collections from Foundation <br />
+            'Visons of Flow'
           </p>
+        </dir>
+        <div className="md:grid md:grid-col-2 md:grid-rows-2 sm:mb-20 mr-8">
+          <div
+            className="col-start-1 
+          w-full h-full flex justify-center m-4  sm:pb-20 "
+          >
+            <Picture
+              picture={"/Thelodge.png"}
+              height={"1000px"}
+              width={"1000px"}
+              setPic={"Foundation"}
+              title={"The Lodge"}
+              eth={"0.25 ETH"}
+              link={REACT_APP_FTURN_URL}
+              alt={"Turns NFT on Foundation"}
+            />
+          </div>
+
+          <div
+            className="col-start-2 
+          w-full h-full flex justify-center m-4 sm:pb-20 "
+          >
+            <Picture
+              picture={"/view.png"}
+              height={"1000px"}
+              width={"1000px"}
+              setPic={"Foundation"}
+              title={"Emerged View"}
+              eth={"0.15 ETH"}
+              link={REACT_APP_FKNESS_URL}
+              alt={"Powder Kness on NFT Foundation"}
+            />
+          </div>
+
+          {/* Start of row 2 */}
+
+          <div
+            className="col-start-1 col-span-2 row-start-2
+          w-full h-full flex justify-center m-4 sm:pb-20 "
+          >
+            <Picture
+              picture={"/Theflow.png"}
+              height={"1000px"}
+              width={"1000px"}
+              setPic={"Foundation"}
+              title={"The flow of light"}
+              eth={"0.25 ETH"}
+              link={REACT_APP_FPAUSE_URL}
+              alt={"After Powder Pause NFT on Foundation"}
+            />
+          </div>
+        </div>{" "}
+        <dir>
+          <p className="text-white text-6xl text-center">'Ski Bum Life'</p>
         </dir>
         <div className="md:grid md:grid-col-2 md:grid-rows-2 sm:mb-20 mr-8">
           <div
@@ -72,7 +126,7 @@ const Gallery = () => {
               width={"1000px"}
               setPic={"Foundation"}
               title={"Turns"}
-              eth={"0.40 ETH"}
+              eth={"0.10 ETH"}
               link={REACT_APP_FTURN_URL}
               alt={"Turns NFT on Foundation"}
             />
@@ -88,7 +142,7 @@ const Gallery = () => {
               width={"1000px"}
               setPic={"Foundation"}
               title={"Powder Knees"}
-              eth={"0.30 ETH"}
+              eth={"0.10 ETH"}
               link={REACT_APP_FKNESS_URL}
               alt={"Powder Kness on NFT Foundation"}
             />
@@ -106,7 +160,7 @@ const Gallery = () => {
               width={"1000px"}
               setPic={"Foundation"}
               title={"After Powder Pause"}
-              eth={"0.40 ETH"}
+              eth={"0.10 ETH"}
               link={REACT_APP_FPAUSE_URL}
               alt={"After Powder Pause NFT on Foundation"}
             />
@@ -128,6 +182,7 @@ const Gallery = () => {
             />
           </div>
         </div>
+        {/* Start of OpenSea */}
         <div className=" mt-5">
           <p className="text-white text-6xl text-center">
             Genesis Collection from OpenSea <br />
